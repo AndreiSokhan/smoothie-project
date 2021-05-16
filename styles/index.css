@@ -1,0 +1,36 @@
+body{
+	background-color: rgb(178, 218, 250);
+	border-radius: 20%;
+	-webkit-border-radius: 20%;
+	-moz-border-radius: 20%;
+	-ms-border-radius: 20%;
+	-o-border-radius: 20%;
+}
+
+.header {}
+
+.header__top {}
+
+
+.header__list {
+	color: red
+}
+
+.logo {
+	/* common styles */
+}
+.logo__link {}
+.logo__img {}
+
+.hader__logo {
+	/* размер, расположение именно в header*/
+}
+
+.footer__logo {
+	/* размер, расположение именно в footer*/
+}
+
+,header__social {
+	
+} 
+*/
