@@ -1,42 +1,62 @@
 body{
-	
-	border-radius: 20%;
-	-webkit-border-radius: 20%;
-	-moz-border-radius: 20%;
-	-ms-border-radius: 20%;
-	-o-border-radius: 20%;
+	background-color: #fff;
+	font-family: Muli, sans-serif;
 }
 
 .header {
 	background: no-repeat center/cover url(../assets/images/header-main-img.png);
 }
 
-.header__top {}
+.smoothie {
 
-
-.header__list {
-	color: red
 }
 
-.logo {
-	/* common styles */
-}
-.logo__link {}
-.logo__img {}
+.about {
+	background-color:#128473;
 
-.hader__logo {
-	/* размер, расположение именно в header*/
 }
 
-.footer__logo {
-	/* размер, расположение именно в footer*/
+.products {
+
 }
 
-.header__social {
-	
+.products__item--chokolate {
+	background-color: #632d1a;
+}
+
+.products__item--vegan {
+	background-color: #198471;
+}
+
+.products__item--lemon {
+	background-color: #fbaf3a;
+}
+
+.products__item--turmeric {
+	background-color: #c44618;
+}
+
+.story {
+
+}
+
+.testimonials {
+	background-color: #65301a;
+
+}
+
+.blog {
+
+}
+
+.instagram {
+
 }
 
 .footer {
-	background-color: #fba93a;
+	background-color: #f2ac3b;
+}
 
+.footer__bottom {
+	background-color: #6c2a1f;
 }
