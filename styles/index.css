@@ -8,7 +8,7 @@ body{
 }
 
 .header {
-	background-image: assets/images/main-img.png ;
+	background: no-repeat center/cover url(../assets/images/header-main-img.png);
 }
 
 .header__top {}
@@ -34,4 +34,9 @@ body{
 
 .header__social {
 	
+}
+
+.footer {
+	background-color: #fba93a;
+
 }
