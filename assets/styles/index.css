@@ -1,10 +1,13 @@
 body{
 	background-color: #fff;
-	font-family: Muli, sans-serif;
+		@font-face {
+		font-family: Muli, sans-serif;;
+		src: url(../fonts/Muli-BoldItalic.ttf);
+	}
 }
 
 .header {
-	background: no-repeat center/cover url(../assets/images/header-main-img.png);
+	background: no-repeat center/cover url(../images/header-main-img.png);
 }
 
 .smoothie {
