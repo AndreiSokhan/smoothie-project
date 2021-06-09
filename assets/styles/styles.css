@@ -1,26 +1,9 @@
 body{
 	background-color: #fff;
-}
-
-.conteiner {
-	max-width: 1920px;
-	margin: 0 auto;
-}
-
-a {text-decoration: none;}
-
-.header {
-	background-image: url(../images/header-main-img.png);
-	background-repeat: no-repeat;
-	border-style: cover;
-	background-position: center;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
-
-.header__content {
-	align-self: center;
+	@font-face {
+		font-family: 'Muli';
+		src: url('../fonts/Muli-Italic.ttf');
+	}
 }
 
 .btn{
@@ -28,6 +11,37 @@ a {text-decoration: none;}
 	justify-content: space-between;
 	align-items: center;
 }
+
+.conteiner {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.header {
+	background-image: url(../images/header-main-img.png);
+	background-repeat: no-repeat;
+	border-style: cover;
+	background-position: center;
+	height: 100vh;
+	/*display: flex;*/
+	flex-direction: row;
+}
+
+.header__content {
+	align-self: center;
+}
+
+.header__btn {
+	height: 60px;
+	width: 280px;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	-ms-border-radius: 35px;
+	-o-border-radius: 35px;
+}
+
+
 
 .smoothie {
 
@@ -82,3 +96,7 @@ a {text-decoration: none;}
 .footer__bottom {
 	background-color: #6c2a1f;
 }
+
+
+
+
