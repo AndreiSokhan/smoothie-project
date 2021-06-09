@@ -1,34 +1,37 @@
 body{
 	background-color: #fff;
 	@font-face {
-		font-family: 'Muli';
-		src: url('../fonts/Muli-Italic.ttf');
+		font-family: 'Muli', sans-serif;
+		src: url('../fonts/Muli-Regular.woff');
 	}
 }
 
-.btn{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.conteiner {
-	max-width: 1920px;
-	margin: 0 auto;
-}
-
-.header {
+	.header {
 	background-image: url(../images/header-main-img.png);
 	background-repeat: no-repeat;
-	border-style: cover;
 	background-position: center;
 	height: 100vh;
-	/*display: flex;*/
-	flex-direction: row;
-}
+	@font-face {
+		font-family: 'Muli';
+		src: url('../fonts/Muli-Bold.ttf');
+		font-style: normal;
+		font-weight: normal;
+	}
+	color: #fff;
+	}
 
 .header__content {
-	align-self: center;
+
+}
+
+.header__menu {
+	@font-face {
+		font-family: 'Muli';
+		src: url('../fonts/Muli-Bold.ttf');
+		font-style: normal;
+		font-weight: normal;
+	}
+	color: #fff;
 }
 
 .header__btn {
