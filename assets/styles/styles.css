@@ -1,40 +1,41 @@
 @font-face {
-	font-family: 'Muli';
+	font-family: 'Muli-Bold';
 	src: url('../fonts/Muli-Bold.ttf');
 	font-display: swap;
 	font-weight: 700;
-	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Muli';
+	font-family: 'Muli-BoldItalic';
 	src: url('../fonts/Muli-BoldItalic.ttf');
 	font-display: swap;
+	
 	}
 
 @font-face {
-	font-family: 'Muli';
+	font-family: 'Muli-ExtraBold';
 	src: url('../fonts/Muli-ExtraBold.woff');
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Muli';
+	font-family: 'Muli-Italic';
 	src: url('../fonts/Muli-Italic.ttf');
 	font-display: swap;
-	
+	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Muli';
+	font-family: 'Muli-Regular';
 	src: url('../fonts/Muli-Regular.woff');
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Muli';
+	font-family: 'Muli-Semi_BoldItalic';
 	src: url('../fonts/Muli-Semi-BoldItalic.ttf');
 	font-display: swap;
+	font-style: italic;
 }
 
 body{
@@ -43,6 +44,11 @@ body{
 	}
 
 	.header {
+	background-image: url(../images/header-main-img.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	background-size: cover;
 	}
 	.conteiner {
 	}
@@ -57,6 +63,323 @@ body{
 	.menu__item {
 	}
 	.menu__link {
+	}
+	.header__logo {
+	}
+	.logo {
+	}
+	.logo__link {
+	}
+	.logo__img {
+	}
+	.header__personal {
+	}
+	.personal {
+	}
+	.personal__list {
+	}
+	.personal__list-item {
+	}
+	.personal__link {
+	}
+	.personal__icon-search {
+	}
+	.personal__icon-user {
+	}
+	.personal__link-cart {
+	}
+	.personal__cart-icon {
+	}
+	.personal__cart-count {
+	}
+	.header__social {
+	}
+	.social {
+	}
+	.social__list {
+	}
+	.social__list-item {
+	}
+	.social__link {
+	}
+	.social__icon {
+	}
+	.social__icon--color {
+	}
+	.header__content {
+	}
+	.btn {
+	}
+	.header__btn {
+		height: 60px;
+		width: 280px;
+		border-style: solid;
+		border-radius: 35px;
+		-webkit-border-radius: 35px;
+		-moz-border-radius: 35px;
+		-ms-border-radius: 35px;
+		-o-border-radius: 35px;
+	}
+	.header__arrow {
+	}
+	.arrow {
+	}
+	.arrow--yellow {
+	}
+
+/*header end*/
+
+	.smoothies {
+	}
+	.smoothies__title {
+	}
+	.title {
+	}
+	.smoothies__text {
+	}
+	.text {
+	}
+	.smoothies__table {
+	}
+	.smoothies__table-row {
+	}
+	.smoothies__table-item {
+	}
+	.smoothie__icon {
+	}
+	.smoothies__subtitle {
+	}
+
+/*smoothies end*/
+
+	.about {
+	}
+	.about__body {
+	}
+	.about__image {
+	}
+	.about__content {
+	}
+	.about__title {
+	}
+	.about__title-span {
+	}
+	.about__list {
+	}
+	.list {
+	}
+	.about__item {
+	}
+	.about__span {
+	}
+	.about__btn {
+	}
+	.btn--outline-yellow {
+	}
+	.about__arrow-btn {
+
+/*about end*/
+
+	}
+	.products {
+	}
+	.products__body {
+	}
+	.products__item {
+	}
+	.products__item--chokolate {
+	}
+	.products__img {
+	}
+	.product__title {
+	}
+	.product__value {
+	}
+	.products__btn {
+	}
+	.btn--outline-white {
+	}
+	.products__arrow-btn {
+	}
+	.products__item--vegan {
+	}
+	.products__item--lemon {
+	}
+	.products__item--turmeric {
+
+/*products end*/
+
+	}
+	.story {
+	}
+	.story__body {
+	}
+	.story__content {
+	}
+	.story__title {
+	}
+	.story__text {
+	}
+	.story__btn {
+	}
+	.btn--outline-green {
+	}
+	.story__arrow {
+	}
+	.story__box {
+	}
+	.story__img {
+	}
+
+/*story end*/
+
+	.testimonials {
+	}
+	.testimonials__body {
+	}
+	.testimonials__title {
+	}
+	.testimonials__title-span {
+	}
+	.testimonials__slide-box {
+	}
+	.testimonials__text {
+	}
+	.text__autor {
+	}
+	.testimonial__img {
+	}
+	.testimonials__btn {
+	}
+	.testimonial__btn {
+	}
+	.btn--arrow-left {
+	}
+	.testimonial__btn-img {
+	}
+	.btn--arrow-right {
+	}
+
+/*testimonials end*/
+
+	.blog {
+	}
+	.blog__body {
+	}
+	.blog__title {
+	}
+	.blog__content {
+	}
+	.blog__img {
+	}
+	.blog__article {
+	}
+	.article {
+	}
+	.artuicle__title {
+	}
+	.article__date {
+	}
+	.blog__text {
+	}
+	.blog__span {
+	}
+	.blog__btn {
+	}
+
+/*blog end*/
+
+	.instagram {
+	}
+	.instagram__title {
+	}
+	.instagram__btn {
+	}
+	.instagram__subtitle {
+	}
+	.instagram__body {
+	}
+	.instagram__item {
+	}
+	.instagram__img {
+	}
+
+/*instagram end*/
+
+	.footer {
+	}
+	.footer__top {
+	}
+	.footer__logo {
+	}
+	.footer__information {
+	}
+	.information {
+	}
+	.information__subject {
+	}
+	.subject {
+	}
+	.information__list {
+	}
+	.information__item {
+	}
+	.footer__payment {
+	}
+	.payment {
+	}
+	.payment__subject {
+	}
+	.payment__list {
+	}
+	.payment__item {
+	}
+	.payment__img {
+	}
+	.footer__connect {
+	}
+	.connect {
+	}
+	.connect__subject {
+	}
+	.connect__follow {
+	}
+	.connect__form {
+	}
+	.connect__input {
+	}
+	.connect__box {
+	}
+	.conect__follow {
+	}
+	.footer__social {
+	}
+	.social__icon--white {
+	}
+	.footer__bottom {
+	}
+	.footer__signature {
+	}
+	.footer__btn-top {
+	}
+	.footer__link {
+	}
+	.footer__link-img {
+	}
+
+	/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+	/*.menu__link {
 		font-family: ;
 	}
 
@@ -65,7 +388,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 100vh;
-	
+	background-size: cover;
 	}
 .conteiner
 .header__content {
@@ -142,7 +465,7 @@ body{
 
 .footer__bottom {
 	background-color: #6c2a1f;
-}
+}*/
 
 
 
