@@ -1,37 +1,79 @@
-body{
-	background-color: #fff;
-	@font-face {
-		font-family: 'Muli', sans-serif;
-		src: url('../fonts/Muli-Regular.woff');
-	}
+@font-face {
+	font-family: 'Muli';
+	src: url('../fonts/Muli-Bold.ttf');
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
 }
+
+@font-face {
+	font-family: 'Muli';
+	src: url('../fonts/Muli-BoldItalic.ttf');
+	font-display: swap;
+	}
+
+@font-face {
+	font-family: 'Muli';
+	src: url('../fonts/Muli-ExtraBold.woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Muli';
+	src: url('../fonts/Muli-Italic.ttf');
+	font-display: swap;
+	
+}
+
+@font-face {
+	font-family: 'Muli';
+	src: url('../fonts/Muli-Regular.woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Muli';
+	src: url('../fonts/Muli-Semi-BoldItalic.ttf');
+	font-display: swap;
+}
+
+body{
+	font-family: Muli, sans-serif;
+	/*color: #fff;*/
+	}
+
+	.header {
+	}
+	.conteiner {
+	}
+	.header__top {
+	}
+	.header__menu {
+	}
+	.menu {
+	}
+	.menu__list {
+	}
+	.menu__item {
+	}
+	.menu__link {
+		font-family: ;
+	}
 
 	.header {
 	background-image: url(../images/header-main-img.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 100vh;
-	@font-face {
-		font-family: 'Muli';
-		src: url('../fonts/Muli-Bold.ttf');
-		font-style: normal;
-		font-weight: normal;
+	
 	}
-	color: #fff;
-	}
-
+.conteiner
 .header__content {
 
 }
 
 .header__menu {
-	@font-face {
-		font-family: 'Muli';
-		src: url('../fonts/Muli-Bold.ttf');
-		font-style: normal;
-		font-weight: normal;
-	}
-	color: #fff;
+		
 }
 
 .header__btn {
@@ -49,7 +91,9 @@ body{
 .smoothie {
 
 }
-
+.smoothies__title{
+	font-weight: 700;
+}
 .about {
 	background-color:#128473;
 
