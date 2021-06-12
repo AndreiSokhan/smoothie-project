@@ -141,7 +141,6 @@ body{
 		font-family: Muli-ExtraBold;
 		font-style: normal;
 		font-size: 21px;
-		border-style: solid 2px;
 		border-radius: 35px;
 		-webkit-border-radius: 35px;
 		-moz-border-radius: 35px;
@@ -154,7 +153,6 @@ body{
 	.header__btn {
 		height: 70px;
 		width: 280px;
-		border-style: solid;
 		border-radius: 35px;
 		-webkit-border-radius: 35px;
 		-moz-border-radius: 35px;
@@ -179,23 +177,40 @@ body{
 		font-family: Muli-Regular;
 		color: #000;
 	}
-	.smoothies__title {
-	}
+
 	.title {
+		font-family: Muli-ExtraBold;
+		font-style: normal;
+		font-size: 50px;
+		line-height: 40px;
 	}
+	.smoothies__title {
+		margin-bottom: 55px;
+		max-width: 637px;
+		max-height: 38px;
+		color: #f7ae3b;
+	}
+	
 	.smoothies__text {
-	}
+		font-size: 18px;
+		max-width: 915px;
+		max-height: 122px;
+		text-align: center;
+		}
+		
 	.text {
 	}
 	.smoothies__table {
-	}
-	.smoothies__table-row {
 	}
 	.smoothies__table-item {
 	}
 	.smoothie__icon {
 	}
 	.smoothies__subtitle {
+		font-family: Muli-ExtraBold;
+		font-style: normal;
+		font-size: 25px;
+		color: #f2612d;
 	}
 
 /*smoothies end*/
