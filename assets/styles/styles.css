@@ -264,35 +264,49 @@ body{
 		border-color: #f8b231;
 	}
 	.about__arrow-btn {
+	}
 
 /*about end*/
 
-	}
 	.products {
 	}
 	.products__body {
 	}
 	.products__item {
+		/*max-width: 480px;*/
+		max-height: 720px;
+
 	}
 	.products__item--chokolate {
+		background-color: #672a19;
 	}
 	.products__img {
+		max-width: 119px;
+		max-height: 303px;
+		
 	}
 	.product__title {
 	}
 	.product__value {
+		font-family: Muli-Regular;
 	}
 	.products__btn {
+		width: 204px;
+		background-color: transparent;
 	}
 	.btn--outline-white {
+		border: 2px solid #fff;
 	}
 	.products__arrow-btn {
 	}
 	.products__item--vegan {
+		background-color: #198870;
 	}
 	.products__item--lemon {
+		background-color: #f9af3f;
 	}
 	.products__item--turmeric {
+		background-color: #c5461b;
 
 /*products end*/
 
