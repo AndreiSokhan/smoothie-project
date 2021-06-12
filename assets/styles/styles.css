@@ -37,10 +37,12 @@
 	font-display: swap;
 	font-style: italic;
 }
-
+*{
+	border: 1px solid red;
+}
 body{
 	font-family: Muli, sans-serif;
-	/*color: #fff;*/
+	color: #fff;
 	}
 
 	.header {
@@ -57,12 +59,18 @@ body{
 	.header__menu {
 	}
 	.menu {
+		font-family: Muli-Bold;
+		font-style: normal;
+		font-size: 16px;
+		line-height: 40px;
+		
 	}
 	.menu__list {
 	}
 	.menu__item {
 	}
 	.menu__link {
+		color: #fff;
 	}
 	.header__logo {
 	}
@@ -75,6 +83,7 @@ body{
 	.header__personal {
 	}
 	.personal {
+		margin-right: 45px;
 	}
 	.personal__list {
 	}
@@ -91,27 +100,59 @@ body{
 	.personal__cart-icon {
 	}
 	.personal__cart-count {
-	}
+		background-color: #fff;
+		height: 10px;
+		width: 10px;
+		border-radius: 50px;
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		-ms-border-radius: 50px;
+		-o-border-radius: 50px;
+}
 	.header__social {
 	}
 	.social {
 	}
 	.social__list {
-	}
+}
 	.social__list-item {
+		margin-right: 10px;
 	}
 	.social__link {
-	}
+		height: 35px;
+		width: 35px;
+		background-color: #fff;
+		/*min-width: 35px;
+		max-width: 35px;
+		*/text-align: center;
+		line-height: 2.3;
+		border-radius: 25px;
+		-webkit-border-radius: 25px;
+		-moz-border-radius: 25px;
+		-ms-border-radius: 25px;
+		-o-border-radius: 25px;
+}
 	.social__icon {
-	}
-	.social__icon--color {
+		
 	}
 	.header__content {
 	}
 	.btn {
-	}
-	.header__btn {
+		font-family: Muli-ExtraBold;
+		font-style: normal;
+		font-size: 21px;
+		border-style: solid 2px;
+		border-radius: 35px;
+		-webkit-border-radius: 35px;
+		-moz-border-radius: 35px;
+		-ms-border-radius: 35px;
+		-o-border-radius: 35px;
 		height: 60px;
+		color: #fff;
+
+}
+	.header__btn {
+		height: 70px;
 		width: 280px;
 		border-style: solid;
 		border-radius: 35px;
@@ -120,6 +161,11 @@ body{
 		-ms-border-radius: 35px;
 		-o-border-radius: 35px;
 	}
+
+	.btn--green{
+	background-color: #0aa566;
+	}
+
 	.header__arrow {
 	}
 	.arrow {
@@ -130,6 +176,8 @@ body{
 /*header end*/
 
 	.smoothies {
+		font-family: Muli-Regular;
+		color: #000;
 	}
 	.smoothies__title {
 	}
