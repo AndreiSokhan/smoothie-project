@@ -52,6 +52,7 @@ body{
 	height: 100vh;
 	background-size: cover;
 
+
 	/*display: flex;
 	flex-direction: column;
 	align-items: center;*/
@@ -202,6 +203,10 @@ body{
 	.smoothies {
 		font-family: Muli-Regular;
 		color: #000;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.title {
@@ -212,13 +217,14 @@ body{
 	}
 	.smoothies__title {
 		margin-bottom: 55px;
-		max-width: 637px;
+		/*max-width: 637px;*/
 		max-height: 38px;
 		color: #f7ae3b;
 	}
 	
 	.smoothies__text {
 		font-size: 18px;
+		line-height: 35px;
 		max-width: 915px;
 		max-height: 122px;
 		text-align: center;
@@ -227,10 +233,21 @@ body{
 	.text {
 	}
 	.smoothies__table {
+		margin-bottom: 165px;
+
+		display: flex;
+		flex-wrap: wrap;
 	}
 	.smoothies__table-item {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
 	}
 	.smoothie__icon {
+		width: 70px;
+		height: 70px;
 	}
 	.smoothies__subtitle {
 		font-family: Muli-ExtraBold;
@@ -243,19 +260,22 @@ body{
 
 	.about {
 		background-color: #198073;
+
+		display: flex;
 	}
-	.about__body {
-	}
+	
 	.about__image {
 		max-width: 691px;
 		max-height: 691px;
+		margin-right: 142px;
+		margin-left: 143px;
 	}
 	.about__content {
 	}
 	.about__title {
 		font-size: 55px;
 		line-height: 60px;
-		margin-bottom: 69px;
+		
 		max-width: 588px;
 		max-height: 102px;
 		color: #fff;
@@ -263,6 +283,7 @@ body{
 
 	.about__title-span {
 		color: #cae941;
+		margin-bottom: 69px;
 	}
 	.about__list {
 		font-family: Muli-Regular;
@@ -286,7 +307,7 @@ body{
 	}
 	.btn--outline-yellow {
 		background-color: transparent;
-		border-color: #f8b231;
+		border: solid #f8b231 2px;
 	}
 	.about__arrow-btn {
 	}
@@ -294,12 +315,17 @@ body{
 /*about end*/
 
 	.products {
+		display: flex;
+		
 	}
-	.products__body {
-	}
-	.products__item {
+		.products__item {
 		/*max-width: 480px;*/
 		max-height: 720px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
 
 	}
 	.products__item--chokolate {
@@ -340,10 +366,14 @@ body{
 	.story {
 		font-family: Muli-Regular;
 		color: #000;
-	}
-	.story__body {
+
+		display: flex;
+		justify-content: space-evenly;
 	}
 	.story__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 	.story__title {
 		color: #f7ae3b;
@@ -354,6 +384,7 @@ body{
 		line-height: 35px;
 		max-width: 493px;
 		max-height: 119px;
+		margin-bottom: 60px;
 
 	}
 	.story__btn {
@@ -365,15 +396,20 @@ body{
 	.story__box {
 	}
 	.story__img {
+		margin-top: 120px;
+		margin-bottom: 160px;
 	}
 
 /*story end*/
 
 	.testimonials {
 		background-color: #682d18;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
-	.testimonials__body {
-	}
+	
 	.testimonials__title {
 		margin-bottom: 118px;
 		max-width: 708px;
@@ -385,10 +421,21 @@ body{
 		color: #f2612d;
 	}
 	.testimonials__slide-box {
+		margin-bottom: 145px;
+
+		display: flex;
+	}
+	.slide-box__text{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		margin-right: 60px;
 	}
 	.testimonials__text {
 		max-width: 455px;
 		max-height: 130px;
+		text-align: center;
 	}
 	.text__autor {
 		color:#f7ae3b;
@@ -396,10 +443,16 @@ body{
 	.testimonial__img {
 	}
 	.testimonials__btn {
+		margin-bottom: 80px;
+
+		display: flex;
+		align-items: center;
 	}
 	.testimonial__btn {
 		background-color: transparent;
 		border-color: transparent;
+
+		
 	}
 	.btn--arrow-left {
 	}
@@ -411,9 +464,11 @@ body{
 /*testimonials end*/
 
 	.blog {
+		display: flex;
+		justify-content: center;
+
 	}
-	.blog__body {
-	}
+	
 	.blog__title {
 		color: #f7ae3b;
 
@@ -421,10 +476,17 @@ body{
 	.blog__content {
 	}
 	.blog__img {
+		width: 555px;
+		height: 400px;
+		margin-right: 60px;
 	}
 	.blog__article {
+		
 	}
 	.article {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
 	}
 	.article__title {
 		font-size: 30px;
@@ -462,6 +524,7 @@ body{
 		
 	}
 	.instagram__btn {
+		
 	}
 	.instagram__subtitle {
 		font-size: 24px;
@@ -469,6 +532,9 @@ body{
 		color: #0aa566;
 	}
 	.instagram__body {
+	
+
+		display: flex;
 	}
 	.instagram__item {
 	}
