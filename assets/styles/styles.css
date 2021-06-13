@@ -51,10 +51,21 @@ body{
 	background-position: center;
 	height: 100vh;
 	background-size: cover;
+
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;*/
 	}
 	.conteiner {
 	}
 	.header__top {
+		padding: 70px 100px 100px;
+		/*width: 100%;*/
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
 	}
 	.header__menu {
 	}
@@ -66,6 +77,10 @@ body{
 		
 	}
 	.menu__list {
+		text-transform: uppercase;
+
+
+		display: flex;
 	}
 	.menu__item {
 	}
@@ -81,11 +96,16 @@ body{
 	.logo__img {
 	}
 	.header__personal {
+		width: 420px;
+
+		display: flex;
+		justify-content: space-between;
 	}
 	.personal {
 		margin-right: 45px;
 	}
 	.personal__list {
+		display: flex;
 	}
 	.personal__list-item {
 	}
@@ -100,20 +120,23 @@ body{
 	.personal__cart-icon {
 	}
 	.personal__cart-count {
-		background-color: #fff;
+		font-family: Muli-Regular;
+		font-size: 10px;
 		height: 10px;
 		width: 10px;
-		border-radius: 50px;
-		-webkit-border-radius: 50px;
-		-moz-border-radius: 50px;
-		-ms-border-radius: 50px;
-		-o-border-radius: 50px;
+		background-color: #fff;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
 }
 	.header__social {
 	}
 	.social {
 	}
 	.social__list {
+		display: flex;
 }
 	.social__list-item {
 		margin-right: 10px;
@@ -129,35 +152,38 @@ body{
 		-o-border-radius: 25px;
 	}
 	.social__link {
-		
-}
+	}
 	.social__icon {
-		
 	}
 	.header__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	.btn {
 		font-family: Muli-ExtraBold;
 		font-style: normal;
 		font-size: 21px;
+		width: 240px;
+		height: 60px;
+		padding: 25px 39px 22px;
+		box-sizing: border-box;
 		border-radius: 35px;
 		-webkit-border-radius: 35px;
 		-moz-border-radius: 35px;
 		-ms-border-radius: 35px;
 		-o-border-radius: 35px;
-		height: 60px;
 		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 
 }
 	.header__btn {
-		height: 70px;
-		width: 280px;
-		border-radius: 35px;
-		-webkit-border-radius: 35px;
-		-moz-border-radius: 35px;
-		-ms-border-radius: 35px;
-		-o-border-radius: 35px;
 		font-size: 24px;
+		line-height: 40px;
+		height: 70px;
+		
 	}
 
 	.btn--green{
@@ -514,7 +540,7 @@ body{
 		color: #6d450c;
 	}
 	.connect__envelope{
-		
+
 	}
 	.connect__box {
 		
