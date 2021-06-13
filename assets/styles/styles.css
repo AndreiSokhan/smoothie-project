@@ -117,20 +117,19 @@ body{
 }
 	.social__list-item {
 		margin-right: 10px;
-	}
-	.social__link {
 		height: 35px;
 		width: 35px;
 		background-color: #fff;
-		/*min-width: 35px;
-		max-width: 35px;
-		*/text-align: center;
+		text-align: center;
 		line-height: 2.3;
 		border-radius: 25px;
 		-webkit-border-radius: 25px;
 		-moz-border-radius: 25px;
 		-ms-border-radius: 25px;
 		-o-border-radius: 25px;
+	}
+	.social__link {
+		
 }
 	.social__icon {
 		
@@ -455,18 +454,27 @@ body{
 	.footer {
 	}
 	.footer__top {
+		background-color: #f8aa3c;
 	}
 	.footer__logo {
 	}
 	.footer__information {
+		
 	}
 	.information {
 	}
 	.information__subject {
 	}
 	.subject {
+		font-size: 26px;
 	}
 	.information__list {
+		font-family: Muli-Bold;
+		font-size: 18px;
+		line-height: 35px;
+		/*max-width: 159px;*/
+		max-height: 122px;
+		color: #6d450c;
 	}
 	.information__item {
 	}
@@ -491,22 +499,46 @@ body{
 	.connect__follow {
 	}
 	.connect__form {
-	}
+		width: 495px;
+		height: 60px;
+		border-radius: 30px;
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		-ms-border-radius: 30px;
+		-o-border-radius: 30px;
+		background-color: #fff;
+}
 	.connect__input {
+		font-family: Muli-Bold;
+		font-size: 17px;
+		color: #6d450c;
+	}
+	.connect__envelope{
+		
 	}
 	.connect__box {
+		
 	}
 	.conect__follow {
+		font-family: Muli-ExtraBold;
+		font-size: 18px;
+		text-transform: uppercase;
+		color: #6d450c;
 	}
 	.footer__social {
 	}
 	.social__icon--white {
 	}
 	.footer__bottom {
+		background-color: #6d2b20;
 	}
 	.footer__signature {
+		font-family: Muli-Regular;
+		font-size: 13px;
 	}
 	.footer__btn-top {
+		font-family: Muli-Bold;
+		font-size: 16px;
 	}
 	.footer__link {
 	}
