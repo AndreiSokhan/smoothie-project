@@ -321,6 +321,7 @@ body{
 	.story__content {
 	}
 	.story__title {
+		color: #f7ae3b;
 		
 	}
 	.story__text {
@@ -332,7 +333,7 @@ body{
 	}
 	.story__btn {
 	}
-	.btn--outline-green {
+	.btn--green {
 	}
 	.story__arrow {
 	}
@@ -344,24 +345,36 @@ body{
 /*story end*/
 
 	.testimonials {
+		background-color: #682d18;
 	}
 	.testimonials__body {
 	}
 	.testimonials__title {
+		margin-bottom: 118px;
+		max-width: 708px;
+		max-height: 117px;
+		color: #f7ae3b;
+		
 	}
 	.testimonials__title-span {
+		color: #f2612d;
 	}
 	.testimonials__slide-box {
 	}
 	.testimonials__text {
+		max-width: 455px;
+		max-height: 130px;
 	}
 	.text__autor {
+		color:#f7ae3b;
 	}
 	.testimonial__img {
 	}
 	.testimonials__btn {
 	}
 	.testimonial__btn {
+		background-color: transparent;
+		border-color: transparent;
 	}
 	.btn--arrow-left {
 	}
@@ -377,6 +390,8 @@ body{
 	.blog__body {
 	}
 	.blog__title {
+		color: #f7ae3b;
+
 	}
 	.blog__content {
 	}
@@ -386,13 +401,30 @@ body{
 	}
 	.article {
 	}
-	.artuicle__title {
+	.article__title {
+		font-size: 30px;
+		color: #f2612d;
 	}
+
+	/*font-family: Muli-ExtraBold;
+		font-style: normal;
+		font-size: 50px;
+		line-height: 40px;*/
+
 	.article__date {
+		font-size: 18px;
+		color: #000;
 	}
 	.blog__text {
+		font-size: 18px;
+		line-height: 35px;
+		color: #000;
+		max-width: 472px;
+		max-height: 122px;
 	}
 	.blog__span {
+		font-family: Muli-ExtraBold;
+		font-style: italic;
 	}
 	.blog__btn {
 	}
@@ -402,10 +434,14 @@ body{
 	.instagram {
 	}
 	.instagram__title {
+		
 	}
 	.instagram__btn {
 	}
 	.instagram__subtitle {
+		font-size: 24px;
+		margin-bottom: 45px;
+		color: #0aa566;
 	}
 	.instagram__body {
 	}
