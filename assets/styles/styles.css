@@ -166,7 +166,7 @@ body{
 		font-style: normal;
 		font-size: 21px;
 		width: 240px;
-		height: 60px;
+		height: 40px;
 		padding: 25px 39px 22px;
 		box-sizing: border-box;
 		border-radius: 35px;
@@ -185,6 +185,8 @@ body{
 		line-height: 40px;
 		height: 70px;
 		
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.btn--green{
@@ -216,10 +218,10 @@ body{
 		line-height: 40px;
 	}
 	.smoothies__title {
-		margin-bottom: 55px;
 		/*max-width: 637px;*/
 		max-height: 38px;
 		color: #f7ae3b;
+		margin-top: 100px;
 	}
 	
 	.smoothies__text {
@@ -228,6 +230,7 @@ body{
 		max-width: 915px;
 		max-height: 122px;
 		text-align: center;
+		margin-bottom: 90px;
 		}
 		
 	.text {
@@ -275,9 +278,9 @@ body{
 	.about__title {
 		font-size: 55px;
 		line-height: 60px;
-		
+		letter-spacing: -1.1px;
 		max-width: 588px;
-		max-height: 102px;
+		/*max-height	: 102px;*/
 		color: #fff;
 	}
 
@@ -316,16 +319,19 @@ body{
 
 	.products {
 		display: flex;
+		flex-direction: row;
+		
 		
 	}
 		.products__item {
 		/*max-width: 480px;*/
-		max-height: 720px;
+		/*max-height: 720px;*/
 
 		display: flex;
 		flex-direction: column;
+		flex-basis: 25%;
 		align-items: center;
-
+		width: 100%;
 
 	}
 	.products__item--chokolate {
@@ -468,7 +474,6 @@ body{
 		justify-content: center;
 
 	}
-	
 	.blog__title {
 		color: #f7ae3b;
 
@@ -521,8 +526,7 @@ body{
 	.instagram {
 	}
 	.instagram__title {
-		
-	}
+		}
 	.instagram__btn {
 		
 	}
@@ -530,11 +534,17 @@ body{
 		font-size: 24px;
 		margin-bottom: 45px;
 		color: #0aa566;
-	}
-	.instagram__body {
-	
 
 		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.instagram__body 	{
+		margin: 0px;
+		padding: 0px;
+
+		display: flex;
+		flex-direction: row;
 	}
 	.instagram__item {
 	}
