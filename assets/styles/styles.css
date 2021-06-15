@@ -325,7 +325,7 @@ body{
 	}
 		.products__item {
 		/*max-width: 480px;*/
-		/*max-height: 720px;*/
+		height: 720px;
 
 		display: flex;
 		flex-direction: column;
@@ -340,12 +340,15 @@ body{
 	.products__img {
 		max-width: 119px;
 		max-height: 303px;
+		margin-top: 130px;
+
 		
 	}
 	.product__title {
 	}
 	.product__value {
 		font-family: Muli-Regular;
+		margin-bottom: 65px;
 	}
 	.products__btn {
 		width: 204px;
@@ -557,6 +560,9 @@ body{
 	}
 	.footer__top {
 		background-color: #f8aa3c;
+
+		display: flex;
+		justify-content: space-between;
 	}
 	.footer__logo {
 	}
@@ -575,7 +581,7 @@ body{
 		font-size: 18px;
 		line-height: 35px;
 		/*max-width: 159px;*/
-		max-height: 122px;
+		/*max-height: 122px;*/
 		color: #6d450c;
 	}
 	.information__item {
@@ -601,8 +607,8 @@ body{
 	.connect__follow {
 	}
 	.connect__form {
-		width: 495px;
-		height: 60px;
+		/*width: 495px;*/
+		/*height: 60px;*/
 		border-radius: 30px;
 		-webkit-border-radius: 30px;
 		-moz-border-radius: 30px;
