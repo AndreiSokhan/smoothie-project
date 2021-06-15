@@ -547,11 +547,14 @@ body{
 		padding: 0px;
 
 		display: flex;
-		flex-direction: row;
+		flex-wrap: wrap;
+
 	}
 	.instagram__item {
 	}
 	.instagram__img {
+		max-width: 380px;
+
 	}
 
 /*instagram end*/
@@ -562,7 +565,8 @@ body{
 		background-color: #f8aa3c;
 
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
+		align-items: center;
 	}
 	.footer__logo {
 	}
@@ -583,20 +587,36 @@ body{
 		/*max-width: 159px;*/
 		/*max-height: 122px;*/
 		color: #6d450c;
+		padding: 0px;
+		
 	}
 	.information__item {
 	}
 	.footer__payment {
 	}
 	.payment {
+		
 	}
 	.payment__subject {
+
 	}
-	.payment__list {
+	.payment__icons {
+		max-width: 245px;
+
+		display: flex;
+		flex-wrap: wrap;
 	}
-	.payment__item {
-	}
+
+	/*.payment__list {
+		
+		padding: 0px;
+	}*/
+	/*.payment__item {
+	}*/
 	.payment__img {
+		margin-right: 20px;
+		margin-bottom: 27px;
+
 	}
 	.footer__connect {
 	}
@@ -607,8 +627,14 @@ body{
 	.connect__follow {
 	}
 	.connect__form {
-		/*width: 495px;*/
-		/*height: 60px;*/
+		margin-bottom: 40px;
+}
+	.connect__input {
+		font-family: Muli-Bold;
+		font-size: 17px;
+		color: #6d450c;
+		width: 495px;
+		height: 60px;
 		border-radius: 30px;
 		-webkit-border-radius: 30px;
 		-moz-border-radius: 30px;
@@ -616,26 +642,25 @@ body{
 		-o-border-radius: 30px;
 		background-color: #fff;
 }
-	.connect__input {
-		font-family: Muli-Bold;
-		font-size: 17px;
-		color: #6d450c;
-	}
 	.connect__envelope{
+		color:#6d450c;
 
 	}
 	.connect__box {
-		
+		/*display: flex;
+		justify-content: end;*/
 	}
 	.conect__follow {
 		font-family: Muli-ExtraBold;
 		font-size: 18px;
 		text-transform: uppercase;
+		margin-right: 45px;
 		color: #6d450c;
+
+		
 	}
-	.footer__social {
-	}
-	.social__icon--white {
+	.conect__link{
+		margin-right: 25px;
 	}
 	.footer__bottom {
 		background-color: #6d2b20;
