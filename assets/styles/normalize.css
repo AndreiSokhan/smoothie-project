@@ -24,12 +24,18 @@ body {
   margin: 0;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
 a {
+display: inline-block;
+text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
+  color: inherit;
 }
 
 /**
