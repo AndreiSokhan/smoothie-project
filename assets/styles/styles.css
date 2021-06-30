@@ -66,6 +66,7 @@ body {
 		padding: 70px 100px 100px;
 		/*width: 100%;*/
 
+		position: relative;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -74,7 +75,6 @@ body {
 	.header__menu {
 	}
 	.menu {
-		
 		font-style: normal;
 		/*line-height: 40px;*/
 		
@@ -97,10 +97,19 @@ body {
 		text-transform: uppercase;
 		color: #fff;
 	}
-	.header__logo {
-	}
 	.logo {
 	}
+
+	.header__logo {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+}
 
 	.logo__img {
 	}
@@ -184,7 +193,7 @@ body {
 		font-family: 'Muli-ExtraBold', sans-serif;
 		font-size: 21px;
 		width: 240px;
-		height: 40px;
+		height: 60px;
 		padding: 0 38px;
 		border-radius: 35px;
 		-webkit-border-radius: 35px;
@@ -201,11 +210,11 @@ body {
 	.header__btn {
 		font-size: 24px;
 		line-height: 40px;
-		height: 70px;
 		width: 280px;
+		height: 70px;
 		
-		display: flex;
-		justify-content: space-between;
+		/*display: flex;
+		justify-content: space-between;*/
 	}
 
 	.btn--green{
@@ -326,6 +335,7 @@ body {
 	.about__btn {
 		width: 380px;
 		height: 60px;
+		padding: 0 29px;
 	}
 	.btn--outline-yellow {
 		background-color: transparent;
@@ -370,7 +380,7 @@ body {
 		margin-bottom: 65px;
 	}
 	.products__btn {
-		width: 204px;
+		max-width: 204px;
 		background-color: transparent;
 	}
 	.btn--outline-white {
@@ -416,6 +426,8 @@ body {
 
 	}
 	.story__btn {
+		padding: 0 30px;
+		width: 310px;
 	}
 	.btn--green {
 	}
@@ -439,6 +451,7 @@ body {
 	}
 	
 	.testimonials__title {
+		margin-top: 120px;
 		margin-bottom: 118px;
 		max-width: 708px;
 		max-height: 117px;
@@ -452,8 +465,12 @@ body {
 		margin-bottom: 145px;
 
 		display: flex;
+		
 	}
 	.slide-box__text{
+
+		line-height: 35px;
+		
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
@@ -466,6 +483,7 @@ body {
 		text-align: center;
 	}
 	.text__autor {
+		line-height: 40px;
 		color:#f7ae3b;
 	}
 	.testimonial__img {
@@ -506,6 +524,7 @@ body {
 		width: 555px;
 		height: 400px;
 		margin-right: 60px;
+		margin-bottom: 200px;
 	}
 	.blog__article {
 		
@@ -516,6 +535,7 @@ body {
 		justify-content: flex-end;
 	}
 	.article__title {
+		font-family: Muli-ExtraBold;
 		font-size: 30px;
 		color: #f2612d;
 	}
@@ -548,6 +568,8 @@ body {
 	.instagram {
 	}
 	.instagram__title {
+		display: flex;
+		justify-content: center;
 		}
 	.instagram__btn {
 		
@@ -703,7 +725,9 @@ body {
 
 	/*footer end*/
 
-
+/*@media screen and (max-width 768px) {
+	
+}*/
 
 
 
