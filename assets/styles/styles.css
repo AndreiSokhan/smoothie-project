@@ -54,18 +54,15 @@ body {
 	background-position: center;
 	background-size: cover;
 	color: #fff;
-
-
-	display: flex;
-	flex-direction: column;
-	/*align-items: center;*/
 	}
-	.header__conteiner {
-		min-width: 1720px;
+
+	.conteiner {
+		max-width: 1720px;
 		margin: 0 auto;
+		padding: 10px;
 	}
 	.header__top {
-		padding: 70px 100px 100px;
+		padding: 90px 0 105px;;
 		/*width: 100%;*/
 
 		position: relative;
@@ -77,10 +74,8 @@ body {
 	.header__menu {
 	}
 	.menu {
-		font-style: normal;
-		/*line-height: 40px;*/
-		
 	}
+
 	.menu__list {
 		display: flex;
 		align-items: center;
@@ -252,7 +247,6 @@ body {
 		max-height: 38px;
 		color: #f7ae3b;
 		margin: 100px 0 55px 0;
-
 	}
 	
 	.smoothies__text {
@@ -299,6 +293,7 @@ body {
 		font-style: normal;
 		font-size: 25px;
 		color: #f2612d;
+		padding: 25px 0 35px 0;
 	}
 
 /*smoothies end*/
@@ -622,25 +617,23 @@ body {
 /*instagram end*/
 
 	.footer {
-		
-	}
-	.footer__conteiner{
-		min-width: 1720px;
-		margin: 0 auto;
-	}
+	background-color: #f8aa3c;
 
+	}
+	
 	.footer__top {
-		background-color: #f8aa3c;
+		padding-top: 80px;
 
 		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
 	}
 	.footer__logo {
 		width: 25%;
+		/*margin: 0 auto; */
 	}
+
 	.footer__information {
 		width: 25%;
+		
 	}
 	.information {
 		
@@ -649,6 +642,7 @@ body {
 	}
 	.subject {
 		font-size: 26px;
+		margin-bottom: 35px;
 	}
 	.information__list {
 		font-family: Muli-Bold;
@@ -672,18 +666,9 @@ body {
 
 	}
 	.payment__icons {
-		max-width: 260px;
-		
-		display: flex;
-		flex-wrap: wrap;
+		max-width: 290px;
 	}
 
-	/*.payment__list {
-		
-		padding: 0px;
-	}*/
-	/*.payment__item {
-	}*/
 	.payment__img {
 		margin-right: 20px;
 		margin-bottom: 27px;
@@ -729,30 +714,32 @@ body {
 		text-transform: uppercase;
 		margin-right: 45px;
 		color: #6d450c;
-
-		
 	}
+
 	.conect__link{
 		margin-right: 25px;
 	}
+
 	.footer__bottom {
 		background-color: #6d2b20;
 	}
+
 	.footer__signature {
 		font-family: Muli-Regular;
 		font-size: 13px;
 	}
+
 	.footer__btn-top {
 		font-family: Muli-Bold;
 		font-size: 16px;
-		
 	}
+
 	.footer__link {
 		color: #f2662f;
 		width: 50px;
 		height: 50px;
-
 	}
+
 	.footer__link-img {
 	}
 

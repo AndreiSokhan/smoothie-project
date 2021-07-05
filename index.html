@@ -11,7 +11,7 @@
 
 <body>
 	<header class="header">
-		<div class="header__conteiner">
+		<div class="conteiner">
 			<div class="header__top">
 				<nav class="header__menu menu">
 					<ul class="menu__list">
@@ -251,11 +251,13 @@
 	<!--instagram end-->
 
 	<footer class="footer">
-		<div class="footer__conteiner">
+		<div class="conteiner">
+			<!--container-->
 			<div class="footer__top">
 				<a class="footer__logo logo" href="#"><img class="logo-img" src="./assets/images/Logo.png" alt="logo"></a>
 				<div class="footer__information information">
 					<h4 class="information__subject subject">Information</h4>
+					<!--footer__subject-->
 					<ul class="information__list">
 						<li class="information__item">Search</li>
 						<li class="information__item">Contact us</li>
@@ -286,7 +288,6 @@
 						<!--<li class="payment__item"></li>-->
 						<img class="payment__img" src="./assets/images/payment-visa.png" alt="VISA">
 					</div>
-
 				</div>
 				<div class="footer__connect connect">
 					<h4 class="connect__subject subject">Don’t miss out!</h4>
@@ -294,29 +295,44 @@
 						<form class="connect__form" name="subscribe" method="POST" action="#" enctype="multipart/form-data">
 							<input class="connect__input" type="email" img class="connect__envelope"
 								src="./assets/images/envelope.png" alt="envelope" placeholder="Subscribe to our newsletter">
+							<input type="text" class="footer__btn">
 						</form>
 					</div>
 					<div class="connect__box">
-						<span class="conect__follow">follow us</span>
+						<button type="submit" class="conect__follow">follow us</button>
+						<div class="footer__social social">
+							<ul class="social__list">
+								<li class="social__list-item"><a class="social__link" href=""><img class="social__icon"
+											src="./assets/images/Facebook-top-icon.png" alt="facebook"></a></li>
+								<li class="social__list-item"><a class="social__link" href=""><img class="social__icon"
+											src="./assets/images/Pinterest-top-icon.png" alt="Pinterest"></a></li>
+								<li class="social__list-item"><a class="social__link" href=""><img class="social__icon"
+											src="./assets/images/Instagram-top-icon.png" alt="instagram"></a></li>
+							</ul>
+						</div>
 						<!--<div class="footer__social social"></div>-->
 						<!--<ul class="social__list"></ul>-->
 						<!--<li class="social__list-item"></li>-->
-						<a class="conect__link" href="#"><img class="social__icon social__icon--white"
-								src="./assets/images/facebook-bottom-icom.png" alt="facebook"></a>
+						<!--<a class="conect__link" href="#">
+							<img class="social__icon social__icon--white"
+								src="./assets/images/facebook-bottom-icom.png" alt="facebook"></a>-->
 						<!--<li class="social__list-item"></li>-->
-						<a class="conect__link" href="#"><img class="social__icon social__icon--white"
-								src="./assets/images/pinterest-bottom-icom.png" alt="P"></a>
+						<!--<a class="conect__link" href="#"><img class="social__icon social__icon--white"
+								src="./assets/images/pinterest-bottom-icom.png" alt="P"></a>-->
 						<!--<li class="social__list-item"></li>-->
-						<a class="conect__link" href="#"><img class="social__icon social__icon--white"
-								src="./assets/images/instagram-bottom-icom.png" alt="instagram"></a>
+						<!--<a class="conect__link" href="#"><img class="social__icon social__icon--white"
+								src="./assets/images/instagram-bottom-icom.png" alt="instagram"></a>-->
 					</div>
 				</div>
 			</div>
-			<div class="footer__bottom">
-				<span class="footer__signature">© 2020. All Rights Reserved.</span>
-				<span class="footer__btn-top">Go top</span>
-				<a class="footer__link" href="#"><img class="footer__link-img" src="./assets/images/arrow-go-top.png" alt="arrow top">
-			</div>
+		</div>
+		<div class="footer__bottom">
+			<small class="footer__signature">© 2020. All Rights Reserved.</small>
+			<!--<span class="footer__btn-top">Go top</span>-->
+			
+			<a class="footer__link" href="#"></a>
+				<!--<img class="footer__link-img" src="./assets/images/arrow-go-top.png"
+					alt="arrow top">-->
 		</div>
 		</div>
 	</footer>
