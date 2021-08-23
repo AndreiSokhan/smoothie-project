@@ -124,7 +124,22 @@ body {
 	.personal__list {
 		display: flex;
 		align-items: center;
+
+		position: relative;
 	}
+
+	.personal__list::after{
+		content: "";
+		height: 2px;
+		width: 48px;
+		background: #fff;
+		opacity: 0.3;
+		display: block;
+		position: absolute;
+		right: -96px;
+		top: 12px;
+	}
+
 	.personal__list-item {
 		margin-right: 45px;
 	}
@@ -347,7 +362,6 @@ body {
 		font-style: normal;
 		line-height: 35px;
 		list-style-image: url(../images/list-point.png);
-		/*max-width: 355px;*/
 		max-height: 327px;
 		margin-bottom: 51px;
 	}
@@ -469,10 +483,20 @@ body {
 	}
 	.story__arrow {
 	}
-	.story__box {
+
+	.story__box{
+		position: relative;
 	}
-	.story__img {
-	
+
+	.story__box::before {
+		content :"";
+		background-image: url(/assets/images/Stamp.png);
+		display: block;
+		height: 216px;
+		width: 290px;
+		position: absolute;
+		left: -170px;
+		top: 22px;
 	}
 
 /*story end*/
@@ -765,6 +789,7 @@ body {
 	}
 
 	.footer__signature {
+		
 		font-family: Muli-Regular;
 		font-size: 13px;
 	}
@@ -774,14 +799,20 @@ body {
 		font-size: 16px;
 	}
 
-	.footer__go-top {
+	/*.footer__go-top {
 		position: fixed;
-	}
+		bottom: 50px;
+		right: 50px;
+	}*/
 
 	.footer__link {
 		background-color: #f2662f;
 		width: 50px;
 		height: 50px;
+
+		position: fixed;
+		bottom: 50px;
+		right: 50px;
 	}
 
 	.footer__link-img {
