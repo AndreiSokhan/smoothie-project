@@ -510,6 +510,20 @@ body {
 		flex-direction: column;
 		align-items: center;
 		background-color: #682d18;
+
+		position: relative;
+	}
+
+	.testimonials__wrapper::before {
+		content :"";
+		background-image: url(/assets/images/Dots.png);
+		display: block;
+		background-repeat: no-repeat;
+		height: 301px;
+		width: 410px;
+		position: absolute;
+		right: 58px;
+		top: -80px;
 	}
 	
 	.testimonials__title {
@@ -581,6 +595,27 @@ body {
 	justify-content: center;
 }
 
+.blog__image{
+	position: relative;
+}
+
+.blog__image::after{
+	content: "";
+	height: 12px;
+	width: 688px;
+	background: #f7ae3b;
+	border-radius: 6px;
+	display: block;
+	position: absolute;
+	right: -583px;
+	top: 70px;
+	-webkit-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+}
+
 	.blog__title {
 		color: #f7ae3b;
 		margin-bottom: 50px;
@@ -590,9 +625,10 @@ body {
 		align-items: center;
 	}
 	.blog__img {
-		width: 555px;
-		height: 400px;
-		margin-right: 60px;
+		max-width: 555px;
+		max-height: 400px;
+		padding-right: 60px;
+		z-index: 10;
 	}
 	.blog__article {
 		
