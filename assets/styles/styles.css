@@ -799,6 +799,10 @@ body {
 		background-color: #fff;
 }
 
+.connect__btn{
+	display: none;
+}
+
 	.connect__envelope{
 		color:#6d450c;
 	}
