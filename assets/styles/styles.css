@@ -714,8 +714,7 @@ left: -38px;
 
 .instagram__item {
 	width: 20%;
-	/*box-shadow: inset 0 0 5px #575555;*/
-
+	
 	position: relative;
 }
 
@@ -733,7 +732,9 @@ left: -38px;
 
 .instagram__img {
 	width: 100%;
-}
+	display: block	;
+	box-shadow: inset 0 0 5px #000000;
+	}
 
 /*instagram end*/
 
