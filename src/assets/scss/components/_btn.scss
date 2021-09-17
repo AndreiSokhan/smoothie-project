@@ -1,0 +1,22 @@
+.btn {
+   font-family: 'Muli-ExtraBold', sans-serif;
+   font-size: 21px;
+   width: 240px;
+   height: 60px;
+   padding: 0 38px;
+   border-radius: 35px;
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   -ms-border-radius: 35px;
+   -o-border-radius: 35px;
+   color: #fff;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.btn--green{
+background-color: #0aa566;
+}

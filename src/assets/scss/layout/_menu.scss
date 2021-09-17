@@ -1,0 +1,21 @@
+.menu {
+}
+
+.menu__list {
+   display: flex;
+   align-items: center;
+}
+.menu__item {
+   margin-right: 35px;
+}
+
+.menu__item:last-child {
+   margin-right: 0px;
+}
+
+.menu__link {
+   font-family: 'Muli-Bold', sans-serif;
+   font-size: 16px;
+   text-transform: uppercase;
+   color: #fff;
+}

@@ -408,7 +408,7 @@ body {
 }
 
 .header {
-    background-image: url(../images/header-main-img.png);
+    background-image: url(./../images/header-main-img.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;

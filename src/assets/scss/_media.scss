@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+   .header__buurger-btn{
+      display: block;
+   }
+
+   .header__navigation {
+      background-color: rgb(26, 182, 39);
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      align-items: center;
+   }
+
+   .menu__link {
+      font-display: column;
+      height: 500px;
+      justify-content: space-between;
+   }
+
+   .logo__img {
+      width: 250px;
+   }
+
+   .menu__item {
+      margin: 0;
+   }
+
+   menu__link {
+      font-size: 2rem;
+   }
+
+   .header__right-blok {
+      margin: 100px 0 150px;
+   }
+
+}
