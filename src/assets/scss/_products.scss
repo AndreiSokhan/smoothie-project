@@ -1,0 +1,52 @@
+.products__wrapper{
+   display: flex;
+   flex-direction: row;
+}
+
+   .products__item {
+   /*width: 25%;*/
+   height: 720px;
+
+   display: flex;
+   flex-direction: column;
+   flex-basis: 25%;
+   align-items: center;
+}
+
+.products__item--chokolate {
+   background-color: #672a19;
+}
+
+.products__img {
+   max-width: 119px;
+   max-height: 303px;
+   margin-top: 130px;
+   margin-bottom: 35px;
+}
+
+.product__title {
+   font-family: Muli-Bold;
+   line-height: 22px;
+}
+
+.product__value {
+   font-family: 'Muli-italic';
+   margin-bottom: 65px;
+}
+
+.products__btn {
+   max-width: 204px;
+   background-color: transparent;
+}
+
+.products__item--vegan {
+   background-color: #198870;
+}
+
+.products__item--lemon {
+   background-color: #f9af3f;
+}
+
+.products__item--turmeric {
+   background-color: #c5461b;
+}

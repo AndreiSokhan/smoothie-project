@@ -1,0 +1,58 @@
+.about {
+   background-color: #198073;
+}
+
+.about__wrapper{
+   display: flex;
+
+   position: relative;
+}
+
+.about__image {
+   max-width: 691px;
+   max-height: 818px;
+   margin-right: 142px;
+   margin-left: 143px;
+
+   position: relative;
+   top: 64px;
+}
+
+.about__content {
+   padding: 97px 0 94px 0;
+}
+
+.about__title {
+   font-size: 55px;
+   line-height: 60px;
+   letter-spacing: -1.1px;
+   max-width: 600px;
+   /*max-height	: 102px;*/
+   color: #fff;
+   margin-bottom: 69px;
+}
+
+.about__title-span {
+   color: #cae941;
+   margin-bottom: 69px;
+}
+
+.about__list {
+   font-family: Muli-Regular;
+   font-style: normal;
+   line-height: 35px;
+   list-style-image: url(../images/list-point.png);
+   max-height: 327px;
+   margin-bottom: 51px;
+}
+
+.about__span {
+   font-family: Muli-Bold;
+   font-style: normal;
+}
+
+.about__btn {
+   width: 380px;
+   height: 60px;
+   padding: 0 29px;
+}

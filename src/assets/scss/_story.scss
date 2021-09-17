@@ -1,0 +1,48 @@
+.story {
+   font-family: 'Muli-Regular';
+   color: #000;
+   padding: 120px 0 160px 0;
+}
+
+.story__wrapper{
+   display: flex;
+   justify-content: center;
+}
+
+.story__content {
+padding-top: 140px;
+margin-right: 225px;
+}
+
+.story__title {
+   color: #f7ae3b;
+   margin-bottom: 42px;
+   
+}
+
+.story__text {
+   font-size: 18px;
+   line-height: 35px;
+   max-width: 493px;
+   margin-bottom: 60px;
+}
+
+.story__btn {
+   padding: 0 30px;
+   width: 310px;
+}
+
+   .story__box{
+   position: relative;
+}
+
+.story__box::before {
+   content :"";
+   background-image: url(/assets/images/Stamp.png);
+   display: block;
+   height: 216px;
+   width: 290px;
+   position: absolute;
+   left: -170px;
+   top: 22px;
+}

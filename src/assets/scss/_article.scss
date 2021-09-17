@@ -1,0 +1,22 @@
+.article {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+
+.article__title {
+   font-family: Muli-ExtraBold;
+   font-size: 30px;
+   color: #f2612d;
+   margin-bottom: 20px;
+}
+
+/*font-family: Muli-ExtraBold;
+   font-style: normal;
+   font-size: 50px;
+   line-height: 40px;*/
+
+.article__date {
+   font-size: 18px;
+   color: #000;
+}
