@@ -5,27 +5,21 @@
    height: 60px;
    padding: 0 38px;
    border-radius: 35px;
-   -webkit-border-radius: 35px;
-   -moz-border-radius: 35px;
-   -ms-border-radius: 35px;
-   -o-border-radius: 35px;
    color: #fff;
-
    display: flex;
    justify-content: space-between;
    align-items: center;
 
-}
-
-.btn--green{
-background-color: #0aa566;
-}
-
-.btn--outline-yellow {
+   &--green {
+      background-color: #0aa566;
+      }
+   
+   &--outline-yellow {
    background-color: transparent;
    border: solid #f8b231 2px;
-}
-
-.btn--outline-white {
-   border: 2px solid #fff;
+   }
+   
+   &--outline-white {
+      border: 2px solid #fff;
+   }
 }
