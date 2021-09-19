@@ -1,42 +1,47 @@
 .footer {
 	background-color: #f8aa3c;
-	}
+}
 
 .footer__top {
 	padding-top: 80px;
 
 	display: flex;
-	}
+}
 
 .footer__logo {
 	width: 25%;
 	/*margin: 0 auto; */
-	}
+}
 
 .footer__information {
 	width: 25%;
-	}
+}
 
-   .footer__bottom {
-      background-color: #6d2b20;
-      }
+.footer__bottom {
+   background-color: #6d2b20;
+   height: 60px;
+}
    
-   .footer__signature {
-      font-family: Muli-Regular;
-      font-size: 13px;
-      }
+.footer__signature {
+   font-family: Muli-Regular;
+   font-size: 13px;
+}
    
-   .footer__btn-top {
-      font-family: Muli-Bold;
-      font-size: 16px;
-      }
-   
-   .footer__link {
-      background-color: #f2662f;
-      width: 50px;
-      height: 50px;
-   
-      position: fixed;
-      bottom: 50px;
-      right: 50px;
-      }
+.footer__btn-top {
+   font-family: Muli-Bold;
+   font-size: 16px;
+}
+
+.footer__link {
+   background-color: #f2662f;
+   width: 50px;
+   height: 50px;
+   border-radius: 8px;
+   position: fixed;
+   bottom: 50px;
+   right: 50px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
