@@ -1,0 +1,11 @@
+.slide-box{
+
+   &__text{
+      line-height: 35px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 60px;
+   }
+}

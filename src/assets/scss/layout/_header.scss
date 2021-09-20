@@ -1,10 +1,63 @@
 .header {
-	background-image: #fbb433 url(./../imaes/header-main-img.png);
-	height: 100vh;
+	background: #f6b133 url(./assets/images/header-main-img.png);
+   height: 100vh;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	color: #fff;
+
+   &__top {
+      padding: 90px 0 105px;;
+      /*width: 100%;*/
+   
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   
+   &__menu {
+   }
+   
+   &__logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+   }
+   
+   &__personal {
+      width: 420px;
+   
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   
+   &__social {
+   }
+   
+   &__content {
+      display: flex;
+      justify-content: center;
+   }
+   
+   &__btn {
+      font-size: 24px;
+      line-height: 40px;
+      width: 280px;
+      height: 70px;
+      
+      /*display: flex;
+      justify-content: space-between;*/
+   }
+   
+   &__arrow {
+   }
 }
 
 .container {
@@ -12,57 +65,3 @@
    margin: 0 auto;
    padding: 10px;
 }
-
-.header__top {
-   padding: 90px 0 105px;;
-   /*width: 100%;*/
-
-   position: relative;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.header__menu {
-}
-
-.header__logo {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   -webkit-transform: translate(-50%, -50%);
-   -moz-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   -o-transform: translate(-50%, -50%);
-}
-
-.header__personal {
-   width: 420px;
-
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.header__social {
-}
-
-.header__content {
-   display: flex;
-   justify-content: center;
-}
-
-.header__btn {
-   font-size: 24px;
-   line-height: 40px;
-   width: 280px;
-   height: 70px;
-   
-   /*display: flex;
-   justify-content: space-between;*/
-}
-
-.header__arrow {
-}
-

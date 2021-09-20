@@ -1,66 +1,65 @@
 .personal {
    margin-right: 45px;
-}
 
-.personal__list {
-   display: flex;
-   align-items: center;
-
-   position: relative;
-}
-
-.personal__list::after{
-   content: "";
-   height: 2px;
-   width: 48px;
-   background: #fff;
-   opacity: 0.3;
-   display: block;
-   position: absolute;
-   right: -96px;
-   top: 12px;
-}
-
-.personal__list-item {
-   margin-right: 45px;
-}
-
-.personal__list-item:last-child{
-   margin-right: 0;
-}
-
-.personal__link {
-}
-
-.personal__icon-search {
-}
-
-.personal__icon-user {
-}
-
-.personal__link-cart {
-   position: relative;
-}
-
-.personal__cart-icon {
-}
-
-.personal__cart-count {
-   font-family: Muli-Regular;
-   font-size: 10px;
-   display: inline-block;
-   height: 18px;
-   width: 18px;
-   background-color: #fff;
-   text-align: center;
-   border-radius: 50%;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   -ms-border-radius: 50%;
-   -o-border-radius: 50%;
-
-   position: absolute;
-   top: -13px;
-   right: -15px;
-
+   &__list {
+      display: flex;
+      align-items: center;
+   
+      position: relative;
+   }
+   
+   &__list::after{
+      content: "";
+      height: 2px;
+      width: 48px;
+      background: #fff;
+      opacity: 0.3;
+      display: block;
+      position: absolute;
+      right: -96px;
+      top: 12px;
+   }
+   
+   &__list-item {
+      margin-right: 45px;
+   }
+   
+   &__list-item:last-child{
+      margin-right: 0;
+   }
+   
+   &__link {
+   }
+   
+   &__icon-search {
+   }
+   
+   &__icon-user {
+   }
+   
+   &__link-cart {
+      position: relative;
+   }
+   
+   &__cart-icon {
+   }
+   
+   &__cart-count {
+      font-family: Muli-Regular;
+      font-size: 10px;
+      display: inline-block;
+      height: 18px;
+      width: 18px;
+      background-color: #fff;
+      text-align: center;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+   
+      position: absolute;
+      top: -13px;
+      right: -15px;
+   }
 }

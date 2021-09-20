@@ -1,12 +1,12 @@
 .payment {
 	width: 25%;
-	}
 
-.payment__icons {
-	max-width: 290px;
-	}
-
-.payment__img {
-	margin-right: 20px;
-	margin-bottom: 27px;
+	&__icons {
+		max-width: 290px;
+		}
+	
+	&__img {
+		margin-right: 20px;
+		margin-bottom: 27px;
+		}
 	}

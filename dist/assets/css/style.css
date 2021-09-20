@@ -444,7 +444,7 @@ body {
 }
 
 .header {
-    background-image: url(./../images/header-main-img.png);
+    background-image: url(./assets/images/header-main-img.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -452,15 +452,9 @@ body {
     color: #fff;
 }
 
-.container {
-    max-width: 1720px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
 .header__top {
     padding: 90px 0 105px;
-  /*width: 100%;*/
+    /*width: 100%;*/
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -503,8 +497,14 @@ body {
     line-height: 40px;
     width: 280px;
     height: 70px;
-  /*display: flex;
-   justify-content: space-between;*/
+    /*display: flex;
+      justify-content: space-between;*/
+}
+
+.container {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .menu__list {
@@ -622,7 +622,7 @@ body {
 }
 
 .smoothies__title {
-  /*max-width: 637px;*/
+    /*max-width: 637px;*/
     max-height: 38px;
     color: #f7ae3b;
     margin: 100px 0 55px 0;
@@ -657,13 +657,13 @@ body {
     height: 180px;
     border-right: 1px solid #f6edde;
     border-top: 1px solid #f6edde;
-  /*padding: 0 0 27px 0;*/
-  /*flex-direction: column;
+    /*padding: 0 0 27px 0;*/
+    /*flex-direction: column;
 		justify-content: center;
 		align-items: center;*/
 }
 
-.smoothie__icon {
+.smoothies__icon {
     width: 70px;
     height: 70px;
 }
@@ -704,7 +704,7 @@ body {
     line-height: 60px;
     letter-spacing: -1.1px;
     max-width: 600px;
-  /*max-height	: 102px;*/
+    /*max-height	: 102px;*/
     color: #fff;
     margin-bottom: 69px;
 }
@@ -765,12 +765,12 @@ body {
     margin-bottom: 35px;
 }
 
-.product__title {
+.products__title {
     font-family: Muli-Bold;
     line-height: 22px;
 }
 
-.product__value {
+.products__value {
     font-family: 'Muli-italic';
     margin-bottom: 65px;
 }
@@ -883,28 +883,10 @@ body {
     display: flex;
 }
 
-.slide-box__text {
-    line-height: 35px;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-right: 60px;
-}
-
 .testimonials__text {
     max-width: 455px;
     max-height: 130px;
     text-align: center;
-}
-
-.text__autor {
-    line-height: 40px;
-    color: #f7ae3b;
 }
 
 .testimonials__btn {
@@ -918,6 +900,24 @@ body {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.slide-box__text {
+    line-height: 35px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.text__autor {
+    line-height: 40px;
+    color: #f7ae3b;
 }
 
 .blog {
@@ -960,7 +960,7 @@ body {
 
 .blog__content {
     padding-top: 200px;
-  /*display: flex;
+    /*display: flex;
 		align-items: center;*/
 }
 
@@ -991,6 +991,10 @@ body {
     flex-direction: column;
     -ms-flex-pack: end;
     justify-content: flex-end;
+  /*font-family: Muli-ExtraBold;
+      font-style: normal;
+      font-size: 50px;
+      line-height: 40px;*/
 }
 
 .article__title {
@@ -1000,10 +1004,6 @@ body {
     margin-bottom: 20px;
 }
 
-/*font-family: Muli-ExtraBold;
-   font-style: normal;
-   font-size: 50px;
-   line-height: 40px;*/
 .article__date {
     font-size: 18px;
     color: #000;
@@ -1078,7 +1078,7 @@ body {
 
 .footer__logo {
     width: 25%;
-  /*margin: 0 auto; */
+    /*margin: 0 auto; */
 }
 
 .footer__information {
@@ -1172,7 +1172,7 @@ body {
     color: #6d450c;
 }
 
-.conect__follow {
+.connect__follow {
     font-family: Muli-ExtraBold;
     font-size: 18px;
     text-transform: uppercase;
@@ -1180,7 +1180,7 @@ body {
     color: #6d450c;
 }
 
-.conect__link {
+.connect__link {
     margin-right: 25px;
 }
 

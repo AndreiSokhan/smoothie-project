@@ -1,37 +1,36 @@
 .smoothies {
    font-family: Muli-Regular;
    color: #000;
-}
 
-.smoothies__wrapper{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-.smoothies__title {
-   /*max-width: 637px;*/
-   max-height: 38px;
-   color: #f7ae3b;
-   margin: 100px 0 55px 0;
-}
-
-.smoothies__text {
-   font-size: 18px;
-   line-height: 35px;
-   max-width: 915px;
-   text-align: center;
-   margin-bottom: 90px;
-   }
-
-   .smoothies__table {
+	&__wrapper{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	&__title {
+		/*max-width: 637px;*/
+		max-height: 38px;
+		color: #f7ae3b;
+		margin: 100px 0 55px 0;
+	}
+	
+	&__text {
+		font-size: 18px;
+		line-height: 35px;
+		max-width: 915px;
+		text-align: center;
+		margin-bottom: 90px;
+		}
+	
+	&__table {
 		margin-bottom: 165px;
 
 		display: flex;
 		flex-wrap: wrap;
 	}
-
-	.smoothies__table-item {
+	
+	&__table-item {
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
@@ -47,16 +46,17 @@
 		align-items: center;*/
 		
 	}
-
-	.smoothie__icon {
+	
+	&__icon {
 		width: 70px;
 		height: 70px;
 	}
-
-	.smoothies__subtitle {
+	
+	&__subtitle {
 		font-family: Muli-ExtraBold;
 		font-style: normal;
 		font-size: 25px;
 		color: #f2612d;
 		padding: 25px 0 35px 0;
+	}
 }

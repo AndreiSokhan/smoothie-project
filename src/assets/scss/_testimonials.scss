@@ -1,71 +1,60 @@
-.testimonials__wrapper{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   background-color: #682d18;
+.testimonials {
 
-   position: relative;
-}
-
-.testimonials__wrapper::before {
-   content :"";
-   background-image: url(/assets/images/Dots.png);
-   display: block;
-   background-repeat: no-repeat;
-   height: 301px;
-   width: 410px;
-   position: absolute;
-   right: 58px;
-   top: -80px;
-}
-
-.testimonials__title {
-   margin-top: 120px;
-   margin-bottom: 118px;
-   max-width: 708px;
-   max-height: 117px;
-   color: #f7ae3b;
+   &__wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #682d18;
    
-}
-
-.testimonials__title-span {
-   color: #f2612d;
-}
-
-.testimonials__slide-box {
-   margin-bottom: 145px;
-
-   display: flex;
-}
-
-.slide-box__text{
-   line-height: 35px;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-   align-items: center;
-   margin-right: 60px;
-}
-
-.testimonials__text {
-   max-width: 455px;
-   max-height: 130px;
-   text-align: center;
-}
-
-.text__autor {
-   line-height: 40px;
-   color:#f7ae3b;
-}
-
-.testimonials__btn {
-   width: 100px;
-   padding: 0;
-   background-color: transparent;
-   border-color: transparent;
-   margin-right: 100px;
-   margin-bottom: 80px;
+      position: relative;
+   }
    
-   display: flex;
-   align-items: center;
+   &__wrapper::before {
+      content :"";
+      background-image: url(/assets/images/Dots.png);
+      display: block;
+      background-repeat: no-repeat;
+      height: 301px;
+      width: 410px;
+      position: absolute;
+      right: 58px;
+      top: -80px;
+   }
+   
+   &__title {
+      margin-top: 120px;
+      margin-bottom: 118px;
+      max-width: 708px;
+      max-height: 117px;
+      color: #f7ae3b;
+      
+   }
+   
+   &__title-span {
+      color: #f2612d;
+   }
+   
+   &__slide-box {
+      margin-bottom: 145px;
+   
+      display: flex;
+   }
+   
+   &__text {
+      max-width: 455px;
+      max-height: 130px;
+      text-align: center;
+   }
+   
+   &__btn {
+      width: 100px;
+      padding: 0;
+      background-color: transparent;
+      border-color: transparent;
+      margin-right: 100px;
+      margin-bottom: 80px;
+      
+      display: flex;
+      align-items: center;
+   }
 }

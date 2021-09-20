@@ -1,12 +1,11 @@
 .connect {
 	width: 25%;
-	}
 
-.connect__form {
+&__form {
 		margin-bottom: 40px;
 }
 
-.connect__input {
+&__input {
 	font-family: Muli-Bold;
 	font-size: 17px;
 	color: #6d450c;
@@ -20,15 +19,15 @@
 	background-color: #fff;
 }
 
-.connect__btn{
+&__btn{
 	display: none;
 }
 
-.connect__envelope{
+&__envelope{
 color:#6d450c;
 	}
 
-.conect__follow {
+&__follow {
 	font-family: Muli-ExtraBold;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -36,6 +35,7 @@ color:#6d450c;
 	color: #6d450c;
 	}
 
-.conect__link{
+&__link{
 	margin-right: 25px;
 	}
+}
