@@ -7,18 +7,18 @@
       background-color: #682d18;
    
       position: relative;
-   }
-   
-   &__wrapper::before {
-      content :"";
-      background-image: url(/assets/images/Dots.png);
-      display: block;
-      background-repeat: no-repeat;
-      height: 301px;
-      width: 410px;
-      position: absolute;
-      right: 58px;
-      top: -80px;
+      
+      &::before {
+         content :"";
+         background-image: url(/assets/images/Dots.png);
+         display: block;
+         background-repeat: no-repeat;
+         height: 301px;
+         width: 410px;
+         position: absolute;
+         right: 58px;
+         top: -80px;
+      }
    }
    
    &__title {
@@ -27,7 +27,6 @@
       max-width: 708px;
       max-height: 117px;
       color: #f7ae3b;
-      
    }
    
    &__title-span {
