@@ -444,7 +444,7 @@ body {
 }
 
 .header {
-    background: #f6b133 url(./assets/images/header-main-img.png);
+    background-image: url(./assets/images/header-main-img.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -843,6 +843,8 @@ body {
 }
 
 .testimonials__wrapper {
+    padding-top: 120px;
+    padding-bottom: 80px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -855,7 +857,7 @@ body {
 
 .testimonials__wrapper::before {
     content: "";
-    background-image: url(/assets/images/Dots.png);
+    background-image: url(./assets/images/Dots.png);
     display: block;
     background-repeat: no-repeat;
     height: 301px;
@@ -866,7 +868,6 @@ body {
 }
 
 .testimonials__title {
-    margin-top: 120px;
     margin-bottom: 118px;
     max-width: 708px;
     max-height: 117px;
@@ -895,7 +896,6 @@ body {
     background-color: transparent;
     border-color: transparent;
     margin-right: 100px;
-    margin-bottom: 80px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
@@ -1102,29 +1102,17 @@ body {
 
 .footer__link {
     background-color: #f2662f;
+    background-image: url(./assets/images/arrow-go-top.png);
     width: 50px;
     height: 50px;
     border-radius: 8px;
-    bottom: 50px;
-    right: 50px;
+    bottom: 38px;
+    right: 100px;
     position: fixed;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    position: relative;
-}
-
-.footer__link::before {
-    content: "";
-    background-image: url(/assets/images/arrow-go-top.png);
-    display: block;
-    background-repeat: no-repeat;
-    height: 13px;
-    width: 25px;
-    position: absolute;
-    right: 10x;
-    top: 10px;
 }
 
 .subject {
