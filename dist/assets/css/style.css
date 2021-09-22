@@ -613,6 +613,8 @@ body {
 }
 
 .smoothies__wrapper {
+    padding-top: 100px;
+    padding-bottom: 110px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -625,7 +627,7 @@ body {
     /*max-width: 637px;*/
     max-height: 38px;
     color: #f7ae3b;
-    margin: 100px 0 55px 0;
+    margin-bottom: 55px;
 }
 
 .smoothies__text {
@@ -637,7 +639,6 @@ body {
 }
 
 .smoothies__table {
-    margin-bottom: 165px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -863,8 +864,20 @@ body {
     height: 301px;
     width: 410px;
     position: absolute;
-    right: 58px;
     top: -80px;
+    right: 58px;
+}
+
+.testimonials__wrapper::after {
+    content: "";
+    background-image: url(./assets/images/Sarah-a.png);
+    display: block;
+    background-repeat: no-repeat;
+    height: 148px;
+    width: 764px;
+    position: absolute;
+    top: 250px;
+    left: 438px;
 }
 
 .testimonials__title {
@@ -1102,7 +1115,6 @@ body {
 
 .footer__link {
     background-color: #f2662f;
-    background-image: url(./assets/images/arrow-go-top.png);
     width: 50px;
     height: 50px;
     border-radius: 8px;
@@ -1113,6 +1125,10 @@ body {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+}
+
+.footer__link-img {
+    margin: 0 auto;
 }
 
 .subject {

@@ -19,8 +19,20 @@
          height: 301px;
          width: 410px;
          position: absolute;
-         right: 58px;
          top: -80px;
+         right: 58px;
+      }
+
+      &::after{
+         content :"";
+         background-image: url(./assets/images/Sarah-a.png);
+         display: block;
+         background-repeat: no-repeat;
+         height: 148px;
+         width: 764px;
+         position: absolute;
+         top: 250px;
+         left: 438px;
       }
    }
    

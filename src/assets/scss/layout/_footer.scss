@@ -33,7 +33,7 @@
    
    &__link {
       background-color: #f2662f;
-      background-image: url(./assets/images/arrow-go-top.png);
+      //background-image: url(./assets/images/arrow-go-top.png);
       width: 50px;
       height: 50px;
       border-radius: 8px;
@@ -44,18 +44,9 @@
       -moz-border-radius: 8px;
       -ms-border-radius: 8px;
       -o-border-radius: 8px;
+   }
 
-      
-      //&::before {
-      //   content :"";
-      //   background-image: url(./assets/images/arrow-go-top.png);
-      //   display: block;
-      //   background-repeat: no-repeat;
-      //   height: 13px;
-      //   width: 25px;
-      //   position: absolute;
-      //   right: 10x;
-      //   top: 10px;
-      //}
+   &__link-img{
+      margin: 0 auto;
    }
 }
