@@ -3,46 +3,46 @@
    color: #000;
    padding: 120px 0 160px 0;
 
-   &__wrapper{
+   &__wrapper {
       display: flex;
       justify-content: center;
    }
-   
+
    &__content {
-   padding-top: 140px;
-   margin-right: 225px;
+      padding-top: 140px;
+      margin-right: 225px;
    }
-   
+
    &__title {
       color: #f7ae3b;
       margin-bottom: 42px;
-      
+
    }
-   
+
    &__text {
       font-size: 18px;
       line-height: 35px;
       max-width: 493px;
       margin-bottom: 60px;
    }
-   
+
    &__btn {
       padding: 0 30px;
       width: 310px;
    }
-   
-   &__box{
-   position: relative;
-   }
-   
-   &__box::before {
-      content :"";
-      background-image: url(/assets/images/Stamp.png);
-      display: block;
-      height: 216px;
-      width: 290px;
-      position: absolute;
-      left: -170px;
-      top: 22px;
+
+   &__box {
+      position: relative;
+
+      &::before {
+         content: "";
+         background-image: url(/assets/images/Stamp.png);
+         display: block;
+         height: 216px;
+         width: 290px;
+         position: absolute;
+         left: -170px;
+         top: 22px;
+      }
    }
 }

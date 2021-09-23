@@ -13,7 +13,7 @@
       
       &::before {
          content :"";
-         background-image: url(./assets/images/Dots.png);
+         background-image: url(/assets/images/Dots.png);
          display: block;
          background-repeat: no-repeat;
          height: 301px;
@@ -25,7 +25,7 @@
 
       &::after {
          content :"";
-         background-image: url(./assets/images/Sarah-a.png);
+         background-image: url(/assets/images/Sarah-a.png);
          display: block;
          background-repeat: no-repeat;
          height: 148px;
@@ -51,6 +51,7 @@
       margin-bottom: 145px;
    
       display: flex;
+      z-index: 1;
    }
    
    &__text {

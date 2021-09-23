@@ -30,15 +30,15 @@
 
       position: relative;
 
-      &::after {
-         content :"";
-         background-image: url(./assets/images/Line.png);
+      &::before {
+         content: "";
+         background-image: url(/assets/images/Line.png);
          display: block;
          background-repeat: no-repeat;
          height: 13px;
          width: 450px;
          position: absolute;
-         bottom: -40px;
+         bottom: -8px;
          left: 69px;
       }
    }
