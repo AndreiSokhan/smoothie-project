@@ -684,7 +684,6 @@ body {
 .about__wrapper {
     display: -ms-flexbox;
     display: flex;
-    position: relative;
 }
 
 .about__image {
@@ -693,7 +692,7 @@ body {
     margin-right: 142px;
     margin-left: 143px;
     position: relative;
-    top: 64px;
+    top: 70px;
 }
 
 .about__content {
@@ -708,6 +707,19 @@ body {
     /*max-height	: 102px;*/
     color: #fff;
     margin-bottom: 69px;
+    position: relative;
+}
+
+.about__title::after {
+    content: "";
+    background-image: url(./assets/images/Line.png);
+    display: block;
+    background-repeat: no-repeat;
+    height: 13px;
+    width: 450px;
+    position: absolute;
+    bottom: -40px;
+    left: 69px;
 }
 
 .about__title-span {
