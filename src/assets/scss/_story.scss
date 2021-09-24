@@ -29,6 +29,11 @@
    &__btn {
       padding: 0 30px;
       width: 310px;
+
+      &:hover {
+         transform: scale(1.02);
+         color: white;
+      }
    }
 
    &__box {

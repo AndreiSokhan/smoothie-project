@@ -2,7 +2,6 @@
 
    &__wrapper{
       display: flex;
-      flex-direction: row;
    }
    
    &__item {
@@ -39,6 +38,15 @@
    &__btn {
       max-width: 204px;
       background-color: transparent;
+
+      &:hover {
+         transform: scale(1.05);
+         color: white;
+         -webkit-transform: scale(1.05);
+         -moz-transform: scale(1.05);
+         -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+}
    }
    
    &__item--vegan {

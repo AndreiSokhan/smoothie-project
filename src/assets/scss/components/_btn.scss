@@ -3,7 +3,12 @@
    font-size: 21px;
    width: 240px;
    height: 60px;
-   padding:  0 38px;
+   padding: {
+      top: 0;
+      right: 38px;
+      bottom: 0;
+      left: 38px;
+   }
    border-radius: 35px;
    color: #fff;
    display: flex;
@@ -12,7 +17,14 @@
 
    &--green {
       background-color: #0aa566;
+      position: relative;
+      
+      &:hover {
+         background-color: #0b925c;
+         transform: scale(1.05);
+         color: white;
       }
+   }
    
    &--outline-yellow {
    background-color: transparent;

@@ -444,7 +444,7 @@ body {
 }
 
 .header {
-    background-image: url(./assets/images/header-main-img.png);
+    background: #eeac36 url(/assets/images/header-main-img.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -710,15 +710,15 @@ body {
     position: relative;
 }
 
-.about__title::after {
+.about__title::before {
     content: "";
-    background-image: url(./assets/images/Line.png);
+    background-image: url(/assets/images/Line.png);
     display: block;
     background-repeat: no-repeat;
     height: 13px;
     width: 450px;
     position: absolute;
-    bottom: -40px;
+    bottom: -8px;
     left: 69px;
 }
 
@@ -870,7 +870,7 @@ body {
 
 .testimonials__wrapper::before {
     content: "";
-    background-image: url(./assets/images/Dots.png);
+    background-image: url(/assets/images/Dots.png);
     display: block;
     background-repeat: no-repeat;
     height: 301px;
@@ -882,7 +882,7 @@ body {
 
 .testimonials__wrapper::after {
     content: "";
-    background-image: url(./assets/images/Sarah-a.png);
+    background-image: url(/assets/images/Sarah-a.png);
     display: block;
     background-repeat: no-repeat;
     height: 148px;
@@ -907,6 +907,7 @@ body {
     margin-bottom: 145px;
     display: -ms-flexbox;
     display: flex;
+    z-index: 1;
 }
 
 .testimonials__text {
