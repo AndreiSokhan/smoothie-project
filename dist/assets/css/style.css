@@ -412,7 +412,10 @@ body {
     font-size: 21px;
     width: 240px;
     height: 60px;
-    padding: 0 38px;
+    padding-top: 0;
+    padding-right: 38px;
+    padding-bottom: 0;
+    padding-left: 38px;
     border-radius: 35px;
     color: #fff;
     display: -ms-flexbox;
@@ -425,6 +428,14 @@ body {
 
 .btn--green {
     background-color: #0aa566;
+    position: relative;
+}
+
+.btn--green:hover {
+    background-color: #0b925c;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    color: white;
 }
 
 .btn--outline-yellow {
@@ -747,11 +758,18 @@ body {
     padding: 0 29px;
 }
 
+.about__btn:hover {
+    transform: scale(1.02);
+    color: white;
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
 .products__wrapper {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
 }
 
 .products__item {
@@ -791,6 +809,15 @@ body {
 .products__btn {
     max-width: 204px;
     background-color: transparent;
+}
+
+.products__btn:hover {
+    transform: scale(1.05);
+    color: white;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 
 .products__item--vegan {
@@ -838,6 +865,12 @@ body {
 .story__btn {
     padding: 0 30px;
     width: 310px;
+}
+
+.story__btn:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    color: white;
 }
 
 .story__box {

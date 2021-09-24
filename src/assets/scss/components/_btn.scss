@@ -1,30 +1,16 @@
 .btn {
-   font-family: 'Muli-ExtraBold', sans-serif;
-   font-size: 21px;
-   width: 240px;
-   height: 60px;
-   padding: {
-      top: 0;
-      right: 38px;
-      bottom: 0;
-      left: 38px;
-   }
-   border-radius: 35px;
-   color: #fff;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-
+   @extend %btn;
+   
    &--green {
-      background-color: #0aa566;
+      background-color: $primaryColor;
       position: relative;
       
       &:hover {
          background-color: #0b925c;
          transform: scale(1.05);
          color: white;
+         }
       }
-   }
    
    &--outline-yellow {
    background-color: transparent;

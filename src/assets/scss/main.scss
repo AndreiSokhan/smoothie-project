@@ -1,48 +1,8 @@
-@import './normalize';
+@import './abstracts/vars';
 
+@import './base/normalize';
 
-
-//fonts
-
-@font-face {
-	font-family: 'Muli-Bold';
-	src: url('../fonts/Muli-Bold.ttf');
-	font-display: swap;
-	font-weight: 700;
-}
-
-@font-face {
-	font-family: 'Muli-BoldItalic';
-	src: url('../fonts/Muli-BoldItalic.ttf');
-	font-display: swap;
-	
-	}
-
-@font-face {
-	font-family: 'Muli-ExtraBold';
-	src: url('../fonts/Muli-ExtraBold.woff');
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'Muli-Italic';
-	src: url('../fonts/Muli-Italic.ttf');
-	font-display: swap;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Muli-Regular';
-	src: url('../fonts/Muli-Regular.woff');
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'Muli-Semi_BoldItalic';
-	src: url('../fonts/Muli-Semi-BoldItalic.ttf');
-	font-display: swap;
-	font-style: italic;
-}
+@import './fonts';
 
 body {
 	font-family: Muli-Regular, sans-serif;
