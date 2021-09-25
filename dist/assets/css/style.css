@@ -1,3 +1,22 @@
+.btn {
+    font-family: 'Muli-ExtraBold', sans-serif;
+    font-size: 21px;
+    width: 240px;
+    height: 60px;
+    padding-top: 0;
+    padding-right: 38px;
+    padding-bottom: 0;
+    padding-left: 38px;
+    border-radius: 35px;
+    color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -405,25 +424,6 @@ template {
 body {
     font-family: Muli-Regular, sans-serif;
     color: #fff;
-}
-
-.btn {
-    font-family: 'Muli-ExtraBold', sans-serif;
-    font-size: 21px;
-    width: 240px;
-    height: 60px;
-    padding-top: 0;
-    padding-right: 38px;
-    padding-bottom: 0;
-    padding-left: 38px;
-    border-radius: 35px;
-    color: #fff;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 .btn--green {
