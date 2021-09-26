@@ -570,7 +570,7 @@ body {
     margin-right: 142px;
     margin-left: 143px;
     position: relative;
-    top: 70px; }
+    top: 88px; }
   .about__content {
     padding: 97px 0 94px 0; }
   .about__title {
@@ -601,7 +601,8 @@ body {
     line-height: 35px;
     list-style-image: url(../images/list-point.png);
     max-height: 327px;
-    margin-bottom: 51px; }
+    margin-bottom: 51px;
+    padding-left: 37px; }
   .about__span {
     font-family: Muli-Bold;
     font-style: normal; }
@@ -636,6 +637,12 @@ body {
   max-height: 303px;
   margin-top: 130px;
   margin-bottom: 35px; }
+  .products__img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1); }
 
 .products__title {
   font-family: Muli-Bold;
@@ -941,7 +948,7 @@ body {
     font-family: Muli-Bold;
     font-size: 17px;
     color: #6d450c;
-    max-width: 495px;
+    width: 495px;
     height: 60px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
