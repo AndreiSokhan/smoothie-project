@@ -33,20 +33,40 @@
    
    &__link {
       background-color: #f2662f;
-      //background-image: url(./assets/images/arrow-go-top.png);
+      //border-radius: trandparent;
       width: 50px;
       height: 50px;
       border-radius: 8px;
       bottom: 38px;
       right: 100px;
       position: fixed;
-      -webkit-border-radius: 8px;
-      -moz-border-radius: 8px;
-      -ms-border-radius: 8px;
-      -o-border-radius: 8px;
-   }
+      -webkit-border-radius: trandparent;
+      -moz-border-radius: trandparent;
+      -ms-border-radius: trandparent;
+      -o-border-radius: trandparent;
 
-   &__link-img{
-      margin: 0 auto;
-   }
+
+      &::before {
+         content: "";
+         background-image: url(/assets/images/arrow-go-top.png);
+         display: block;
+         height: 25px;
+         width: 13px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+}
+
+      &:hover {
+         filter: brightness(1.5);
+         -webkit-filter: brightness(1.5);
+         outline: none;
+      }
+}
+
 }
