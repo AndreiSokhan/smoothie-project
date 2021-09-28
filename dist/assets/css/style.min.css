@@ -35,7 +35,6 @@ body {
   margin: 0; }
 
 * {
-  border: 1px solid red;
   box-sizing: border-box; }
 
 * {
@@ -385,7 +384,7 @@ body {
 
 .btn--outline-yellow {
   background-color: transparent;
-  border: solid #f8b231 2px; }
+  border: solid #f8b231 3px; }
 
 .btn--outline-white {
   border: 2px solid #fff; }
@@ -519,7 +518,7 @@ body {
   color: #000; }
   .smoothies__wrapper {
     padding-top: 100px;
-    padding-bottom: 110px;
+    padding-bottom: 130px;
     display: flex;
     flex-direction: column;
     align-items: center; }
@@ -527,13 +526,14 @@ body {
     /*max-width: 637px;*/
     max-height: 38px;
     color: #f7ae3b;
-    margin-bottom: 55px; }
+    margin-bottom: 40px;
+    letter-spacing: -1px; }
   .smoothies__text {
     font-size: 18px;
     line-height: 35px;
     max-width: 915px;
     text-align: center;
-    margin-bottom: 90px; }
+    margin-bottom: 62px; }
   .smoothies__table {
     display: flex;
     flex-wrap: wrap; }
@@ -570,9 +570,9 @@ body {
     margin-right: 142px;
     margin-left: 143px;
     position: relative;
-    top: 88px; }
+    top: 64px; }
   .about__content {
-    padding: 97px 0 94px 0; }
+    padding: 90px 0 94px 0; }
   .about__title {
     font-size: 55px;
     line-height: 60px;
@@ -580,7 +580,7 @@ body {
     max-width: 600px;
     /*max-height	: 102px;*/
     color: #fff;
-    margin-bottom: 69px;
+    margin-bottom: 48px;
     position: relative; }
     .about__title::before {
       content: "";
@@ -590,25 +590,28 @@ body {
       height: 13px;
       width: 450px;
       position: absolute;
-      bottom: -8px;
+      bottom: -12px;
       left: 69px; }
   .about__title-span {
     color: #cae941;
     margin-bottom: 69px; }
   .about__list {
     font-family: Muli-Regular;
+    font-size: 20px;
     font-style: normal;
-    line-height: 35px;
+    line-height: 42px;
     list-style-image: url(../images/list-point.png);
     max-height: 327px;
-    margin-bottom: 51px;
+    margin-bottom: 64px;
     padding-left: 24px; }
   .about__item {
-    padding-left: 19px; }
+    opacity: 0.7;
+    padding-left: 12px; }
   .about__span {
     font-family: Muli-Bold;
     font-style: normal; }
   .about__btn {
+    opacity: 0.85;
     width: 380px;
     height: 60px;
     padding: 0 29px; }
@@ -702,7 +705,7 @@ body {
     position: relative; }
     .story__box::before {
       content: "";
-      background-image: url(./assets/images/Stamp.png);
+      background-image: url(/assets/images/Stamp.png);
       display: block;
       height: 216px;
       width: 290px;

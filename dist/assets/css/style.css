@@ -745,7 +745,11 @@ body {
     list-style-image: url(../images/list-point.png);
     max-height: 327px;
     margin-bottom: 51px;
-    padding-left: 37px;
+    padding-left: 24px;
+}
+
+.about__item {
+    padding-left: 19px;
 }
 
 .about__span {
@@ -888,7 +892,7 @@ body {
 
 .story__box::before {
     content: "";
-    background-image: url(/assets/images/Stamp.png);
+    background-image: url(./assets/images/Stamp.png);
     display: block;
     height: 216px;
     width: 290px;
@@ -1176,14 +1180,32 @@ body {
     bottom: 38px;
     right: 100px;
     position: fixed;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    -webkit-border-radius: trandparent;
+    -moz-border-radius: trandparent;
+    -ms-border-radius: trandparent;
+    -o-border-radius: trandparent;
 }
 
-.footer__link-img {
-    margin: 0 auto;
+.footer__link::before {
+    content: "";
+    background-image: url(/assets/images/arrow-go-top.png);
+    display: block;
+    height: 25px;
+    width: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.footer__link:hover {
+    filter: brightness(1.5);
+    -webkit-filter: brightness(1.5);
+    outline: none;
 }
 
 .subject {
