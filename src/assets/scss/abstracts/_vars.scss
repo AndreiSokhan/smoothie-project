@@ -17,3 +17,9 @@ $primaryColor: #0aa566;
    justify-content: space-between;
    align-items: center;
 }
+
+%flexCenter {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
