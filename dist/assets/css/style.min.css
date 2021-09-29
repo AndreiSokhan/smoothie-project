@@ -35,6 +35,7 @@ body {
   margin: 0; }
 
 * {
+  border: 1px solid red;
   box-sizing: border-box; }
 
 * {
@@ -393,7 +394,8 @@ body {
   font-family: Muli-ExtraBold;
   font-style: normal;
   font-size: 50px;
-  line-height: 40px; }
+  line-height: 40px;
+  letter-spacing: -1px; }
 
 .header {
   background: #eeac36 url(/assets/images/header-main-img.png);
@@ -651,10 +653,12 @@ body {
 
 .products__title {
   font-family: Muli-Bold;
+  font-size: 24px;
   line-height: 22px; }
 
 .products__value {
   font-family: 'Muli-italic';
+  font-size: 21px;
   margin-bottom: 65px; }
 
 .products__btn {
