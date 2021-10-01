@@ -1063,6 +1063,18 @@ body {
     font-style: italic;
 }
 
+.blog__btn {
+    padding-left: 3px;
+}
+
+.blog__btn:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
 .article {
     display: -ms-flexbox;
     display: flex;
