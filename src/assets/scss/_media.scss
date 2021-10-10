@@ -44,4 +44,17 @@
 
 @media (max-width: 359.98px) {
 
+   .header__personal {
+      height: 100px;
+      flex-direction: column;
+      margin-bottom: 70px;
+   }
+
+   .personal__list::after {
+      display: none;
+   }
+
+   .menu__list {
+      height: 300px;
+   }
 }
