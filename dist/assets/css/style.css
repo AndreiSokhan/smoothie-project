@@ -455,6 +455,11 @@ body {
     letter-spacing: -1px;
 }
 
+.text__autor {
+    line-height: 40px;
+    color: #f7ae3b;
+}
+
 .header {
     background: #eeac36 url(/assets/images/header-main-img.png);
     height: 100vh;

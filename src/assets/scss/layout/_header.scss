@@ -9,11 +9,23 @@
    &__top {
       padding: 90px 0 105px;;
       /*width: 100%;*/
-   
       position: relative;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+   }
+
+   &__burger-btn {
+      background-image: url(./../images/menu.png);
+      background-size: cover;
+      height: 32px;
+      width: 32px;
+      position: fixed;
+      top: 30px;
+      right: 30px;
+      display: none;
+      z-index: 999;
+   }
+
+   &__navigation {
+      @extend %flexCenter;
    }
    
    &__menu {

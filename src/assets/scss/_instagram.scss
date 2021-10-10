@@ -1,59 +1,63 @@
 .instagram {
+   padding-bottom: 10px;
 
    &__title {
       margin-bottom: 45px;
-   
+
       display: flex;
       justify-content: center;
-      }
-   
+   }
+
    &__subtitle {
-   font-size: 24px;
-   color: #0aa566;
-   
-   position: relative;
+      font-size: 24px;
+      color: #0aa566;
+
+      position: relative;
    }
-   
-   &__subtitle::before{
-   content: "";
-   background-image: url(/assets/images/blog-instagram-icon-green.png);
-   display: block;
-   background-repeat: no-repeat;
-   height: 26px;
-   width: 26px;
-   position: absolute;
-   left: -38px;
+
+   &__subtitle::before {
+      content: "";
+      background-image: url(/assets/images/blog-instagram-icon-green.png);
+      display: block;
+      background-repeat: no-repeat;
+      height: 26px;
+      width: 26px;
+      position: absolute;
+      left: -38px;
    }
-   
-   &__body 	{
-   margin: 0px;
-   padding: 0px;
-   
-   display: flex;
-   flex-wrap: wrap;
+
+   &__body {
+      margin: 0px;
+      padding: 0px;
+
+      display: flex;
+      flex-wrap: wrap;
    }
-   
+
    &__item {
-   width: 20%;
-   
-   position: relative;
+      width: 20%;
+
+      position: relative;
    }
-   
-   &__item::after{
-   content: "";
-   background-image: url(/assets/images/instagram-icon-white.png);
-   display: block;
-   background-repeat: no-repeat;
-   height: 26px;
-   width: 26px;
-   position: absolute;
-   right: 22px;
-   bottom: 20px;
+
+   &__item::after {
+      content: "";
+      background-image: url(/assets/images/instagram-icon-white.png);
+      display: block;
+      background-repeat: no-repeat;
+      height: 26px;
+      width: 26px;
+      position: absolute;
+      right: 22px;
+      bottom: 20px;
    }
-   
+
    &__img {
-   width: 100%;
-   display: block	;
-   box-shadow: inset 0 0 5px #000000;
+      max-width: 383px;
+      height: 384px;
+      width: 100%;
+      object-fit: cover;
+      display: block;
+      box-shadow: inset 0 0 5px #000000;
    }
 }

@@ -50,4 +50,10 @@
          top: 22px;
       }
    }
+
+   &__img {
+      max-width: 585px;
+      width: 100%;
+      object-fit: cover;
+   }
 }

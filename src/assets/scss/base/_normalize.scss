@@ -51,6 +51,11 @@ a:hover {
   color: inherit;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */

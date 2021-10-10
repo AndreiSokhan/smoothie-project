@@ -1,24 +1,28 @@
-@media (max-width: 768px) {
-   .header__buurger-btn{
+@media screen and (max-width: 767.98px) {
+
+   .header__burger-btn {
       display: block;
    }
 
    .header__navigation {
-      background-color: rgb(26, 182, 39);
+      display: block;
+      background-color: #1b915c;
       position: fixed;
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
-      z-index: 1;
+      z-index: 2;
+      display: flex;
       flex-direction: column-reverse;
       justify-content: flex-end;
       align-items: center;
+      padding-top: 100px;
    }
 
-   .menu__link {
-      font-display: column;
-      height: 500px;
+   .menu__list {
+      flex-direction: column;
+      height: 400px;
       justify-content: space-between;
    }
 
@@ -30,12 +34,15 @@
       margin: 0;
    }
 
-   menu__link {
-      font-size: 2rem;
+   .menu__link {
+      font-size: 1.2rem;
    }
 
-   .header__right-blok {
-      margin: 100px 0 150px;
+   .header__personal {
+      margin-bottom: 120px;
    }
+}
+
+@media (max-width: 359.98px) {
 
 }
