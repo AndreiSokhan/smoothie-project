@@ -17,6 +17,15 @@
     align-items: center;
 }
 
+.header__navigation {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -63,6 +72,11 @@ a {
 a:hover {
     text-decoration: none;
     color: inherit;
+}
+
+button {
+    border: none;
+    background-color: transparent;
 }
 
 /**
@@ -473,12 +487,18 @@ body {
     padding: 90px 0 105px;
     /*width: 100%;*/
     position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-align: center;
-    align-items: center;
+}
+
+.header__burger-btn {
+    background-image: url(./../images/menu.png);
+    background-size: cover;
+    height: 32px;
+    width: 32px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    display: none;
+    z-index: 999;
 }
 
 .header__logo {
@@ -544,10 +564,6 @@ body {
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
-}
-
-.personal {
-    margin-right: 45px;
 }
 
 .personal__list {
@@ -616,7 +632,7 @@ body {
     width: 35px;
     background-color: #fff;
     text-align: center;
-    line-height: 2.3;
+    line-height: 2.6;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -913,6 +929,13 @@ body {
     top: 22px;
 }
 
+.story__img {
+    max-width: 585px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
 .testimonials__wrapper {
     padding-top: 120px;
     padding-bottom: 80px;
@@ -1016,6 +1039,10 @@ body {
 }
 
 .blog__image {
+    max-width: 555px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
     position: relative;
 }
 
@@ -1105,6 +1132,10 @@ body {
     color: #000;
 }
 
+.instagram {
+    padding-bottom: 10px;
+}
+
 .instagram__title {
     margin-bottom: 45px;
     display: -ms-flexbox;
@@ -1157,7 +1188,11 @@ body {
 }
 
 .instagram__img {
+    max-width: 383px;
+    height: 384px;
     width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
     display: block;
     box-shadow: inset 0 0 5px #000000;
 }
@@ -1302,30 +1337,35 @@ body {
     margin-right: 25px;
 }
 
-@media (max-width: 768px) {
-    .header__buurger-btn {
+@media screen and (max-width: 767.98px) {
+    .header__burger-btn {
         display: block;
     }
 
     .header__navigation {
-        background-color: #1ab627;
+        display: block;
+        background-color: #1b915c;
         position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        z-index: 1;
+        z-index: 2;
+        display: -ms-flexbox;
+        display: flex;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
         -ms-flex-pack: end;
         justify-content: flex-end;
         -ms-flex-align: center;
         align-items: center;
+        padding-top: 100px;
     }
 
-    .menu__link {
-        font-display: column;
-        height: 500px;
+    .menu__list {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 400px;
         -ms-flex-pack: justify;
         justify-content: space-between;
     }
@@ -1338,11 +1378,11 @@ body {
         margin: 0;
     }
 
-    menu__link {
-        font-size: 2rem;
+    .menu__link {
+        font-size: 1.2rem;
     }
 
-    .header__right-blok {
-        margin: 100px 0 150px;
+    .header__personal {
+        margin-bottom: 120px;
     }
 }

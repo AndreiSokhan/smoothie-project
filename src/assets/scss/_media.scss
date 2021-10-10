@@ -5,7 +5,6 @@
    }
 
    .header__navigation {
-      display: block;
       background-color: #1b915c;
       position: fixed;
       top: 0;
@@ -13,7 +12,7 @@
       bottom: 0;
       left: 0;
       z-index: 2;
-      display: flex;
+      display: none;
       flex-direction: column-reverse;
       justify-content: flex-end;
       align-items: center;
